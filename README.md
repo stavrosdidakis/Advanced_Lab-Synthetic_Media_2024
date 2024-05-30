@@ -3,11 +3,16 @@
 <details>
   <summary><strong>Overview</strong></summary>
 
-**Instructor:** Dr. Stavros Didakis
-**Email:** `stavros.didakis@nyu.edu`
-**Course number:** INTM-SHU 306
-**Course Title:** Synthetic Media
-**Course Description:** This course investigates emerging trends in machine learning and artificial intelligence for generating media content - images, video, sound. The course explores the idea of how artists, designers, and creators can use machine learning in their own research, production, and development processes. Students learn and understand machine-learning techniques and use them to generate creative media content. The course covers a range of related platforms and models and also provides the frameworks to experiment with implementing interaction and virtuality within the creative work.
+# Advanced_Lab-Synthetic_Media_2024
+
+**Instructor:** Dr. Stavros Didakis  
+**Email:** `stavros.didakis@nyu.edu`  
+**Course number:** INTM-SHU 306  
+**Course Title:** Synthetic Media  
+
+**Course Description:**  
+This course investigates emerging trends in machine learning and artificial intelligence for generating media content - images, video, sound. The course explores the idea of how artists, designers, and creators can use machine learning in their own research, production, and development processes. Students learn and understand machine-learning techniques and use them to generate creative media content. The course covers a range of related platforms and models and also provides the frameworks to experiment with implementing interaction and virtuality within the creative work.
+
 **Instructional Mode:** In-person
 **Co-requisite or prerequisite:** Communications Lab, What’s New Media, OR Emerging Technologies & Computational Arts
 **Class meeting days and times:** Meets once a week (150 mins per session), N405
