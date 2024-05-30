@@ -331,6 +331,29 @@ For materials not available to you immediately, you can request scanned copies o
 
 <details>
   <summary><strong>4. Assignment 1 Presentations</strong></summary>
+Selected examples of generative AI imagery:
+<table>
+  <tr>
+    <td><img src="images/1.png" alt="Image 1" style="width:200px; padding:0px;"/></td>
+    <td><img src="images/2.png" alt="Image 2" style="width:200px; padding:0px;"/></td>
+    <td><img src="images/3.png" alt="Image 3" style="width:200px; padding:0px;"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/4.png" alt="Image 4" style="width:200px; padding:0px;"/></td>
+    <td><img src="images/5.png" alt="Image 5" style="width:200px; padding:0px;"/></td>
+    <td><img src="images/6.png" alt="Image 6" style="width:200px; padding:0px;"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/7.png" alt="Image 1" style="width:200px; padding:0px;"/></td>
+    <td><img src="images/8.png" alt="Image 2" style="width:200px; padding:0px;"/></td>
+    <td><img src="images/9.png" alt="Image 3" style="width:200px; padding:0px;"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/10.png" alt="Image 4" style="width:200px; padding:0px;"/></td>
+    <td><img src="images/11.png" alt="Image 5" style="width:200px; padding:0px;"/></td>
+    <td><img src="images/12.png" alt="Image 6" style="width:200px; padding:0px;"/></td>
+  </tr>
+</table>
 </details>
 
 <details>
