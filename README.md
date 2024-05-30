@@ -1138,5 +1138,4 @@ Selected examples of generative AI imagery:
 
 ---
 
-Outputs of the course appear in:
-**Ars Electronica Campus Exhibition 2024**
+Outputs of the course appear in: [Ars Electronica Campus Exhibition 2024](https://ars.electronica.art/festival/en/)
