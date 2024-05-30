@@ -3,150 +3,186 @@
 <details>
   <summary><strong>Overview</strong></summary>
 
-# Advanced_Lab-Synthetic_Media_2024
-
 **Instructor:** Dr. Stavros Didakis  
 **Email:** `stavros.didakis@nyu.edu`  
 **Course number:** INTM-SHU 306  
 **Course Title:** Synthetic Media  
 
+---
+
 **Course Description:**  
 This course investigates emerging trends in machine learning and artificial intelligence for generating media content - images, video, sound. The course explores the idea of how artists, designers, and creators can use machine learning in their own research, production, and development processes. Students learn and understand machine-learning techniques and use them to generate creative media content. The course covers a range of related platforms and models and also provides the frameworks to experiment with implementing interaction and virtuality within the creative work.
 
-**Instructional Mode:** In-person
-**Co-requisite or prerequisite:** Communications Lab, What’s New Media, OR Emerging Technologies & Computational Arts
-**Class meeting days and times:** Meets once a week (150 mins per session), N405
-**Learning Objectives:** 
-Upon Completion of this course, students will be able to:
-- understand the concept of synthetic media and the technologies it involves,
-- learn about machine learning and generative A.I. and how to apply it within an artistic context,
-- analyze the creative and artistic dimensions of synthetic media,
-- work with state-of-the-art platforms and models for generating synthetic media content,
-- experiment with implementing the generated media content with platforms for interaction design and virtual reality,
-- develop critical thinking skills through analyzing and reflecting on the implications of synthetic media in society and culture.
+---
+
+**Instructional Mode:** In-person  
+
+**Co-requisite or Prerequisite:** Communications Lab, What’s New Media, OR Emerging Technologies & Computational Arts  
+
+**Class Details:** Meets once a week (150 mins per session), N405  
+
+---
+
+**Learning Objectives:**  
+Upon completion of this course, students will be able to:
+- Understand the concept of synthetic media and the technologies it involves
+- Learn about machine learning and generative A.I. and how to apply it within an artistic context
+- Analyze the creative and artistic dimensions of synthetic media
+- Work with state-of-the-art platforms and models for generating synthetic media content
+- Experiment with implementing the generated media content with platforms for interaction design and virtual reality
+- Develop critical thinking skills through analyzing and reflecting on the implications of synthetic media in society and culture
+
 </details>
 
 <details>
   <summary><strong>Course Policies</strong></summary>
 
-- **Attendance and Tardiness**
-    Students are expected to attend *all* scheduled classes. If unable to attend a class, a student needs to notify the instructor *before* class.
+**Attendance and Tardiness**  
+Students are expected to attend *all* scheduled classes. If unable to attend a class, a student needs to notify the instructor *before* class.
 
-- **Absences and Grades**
-  - 4 absences will lead to an F for the participation grade.
-  - 6 absences will lead to a 25% reduction in the final grade.
-  - 8 absences will lead to failure of the course.
+---
 
-- **Absence Exceptions**
-    *Observance of Religious Holidays:* You may miss class for the observance of religious holidays. If you anticipate being absent because of religious observance, notify me in advance so we can create a plan for making up missed work.  For more on this policy [see here](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/university-calendar-policy-on-religious-holidays.html).
+**Absences and Grades**  
+- 4 absences will lead to an F for the participation grade.
+- 6 absences will lead to a 25% reduction in the final grade.
+- 8 absences will lead to failure of the course.
 
-    *Competitions, Conferences, Presentations:* You are permitted to be absent from classes to participate in competitions, conferences, and presentations, either at home or out of town, as approved by the Associate Provost for Academic Affairs.  Review the Undergraduate Bulletin for the conditions you must meet to obtain approval for this kind of absence.
+---
 
-    *Extended Illness:* A student with an injury or medical condition that requires ongoing accommodations (temporary or permanent) should contact the NYU Moses Center for Student Accessibility (CSA). If an accommodation is recommended by the Moses Center, then Academic Affairs may communicate on behalf of students to advocate for excused absences/ extensions. Reasonable accommodations, considering the course objectives, student learning, and fair standards, are ultimately decided by the professor.
+**Absence Exceptions**  
+- **Observance of Religious Holidays:** You may miss class for the observance of religious holidays. If you anticipate being absent because of religious observance, notify me in advance so we can create a plan for making up missed work. For more on this policy [see here](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/university-calendar-policy-on-religious-holidays.html).
+- **Competitions, Conferences, Presentations:** You are permitted to be absent from classes to participate in competitions, conferences, and presentations, either at home or out of town, as approved by the Associate Provost for Academic Affairs. Review the Undergraduate Bulletin for the conditions you must meet to obtain approval for this kind of absence.
+- **Extended Illness:** A student with an injury or medical condition that requires ongoing accommodations (temporary or permanent) should contact the NYU Moses Center for Student Accessibility (CSA). If an accommodation is recommended by the Moses Center, then Academic Affairs may communicate on behalf of students to advocate for excused absences/extensions. Reasonable accommodations, considering the course objectives, student learning, and fair standards, are ultimately decided by the professor.
 
-- **Tardiness**
-    Punctual arrival is mandatory for this class. Students need to be on time and not leave in the middle of class unless it is an emergency.
+---
 
-- **Late Assignments**
-    Assignments are due **at the date and time indicated on this syllabus**. The late penalty for *all assignments* is one-third of a letter grade per day (an A becomes an A-, etc.) All other late assignments will earn an F.
+**Tardiness**  
+Punctual arrival is mandatory for this class. Students need to be on time and not leave in the middle of class unless it is an emergency.
 
-- **Electronic Devices**
-    *Mobile Devices:* Students may not use mobile devices in class unless otherwise indicated.
+---
 
-    *Recording Class:* To ensure the free and open discussion of ideas, students may not record classroom lectures, discussions, and/or activities without the instructor’s advance written permission; any such recording can be used solely for their own private use. If a student has approved accommodations from the Office of Disability Resources permitting the recording of class meetings, the student must present the accommodation letter to the instructor in advance of any recording. On any days when classes will be recorded, the instructor will notify all students in advance. Distribution or sale of class recordings is prohibited without the written permission of the instructor and other students who are recorded.
+**Late Assignments**  
+Assignments are due **at the date and time indicated on this syllabus**. The late penalty for *all assignments* is one-third of a letter grade per day (an A becomes an A-, etc.). All other late assignments will earn an F.
 
-- **Instructional Technology**
-    *Email Communication:* The course instructor will contact students regularly via email. Students should check for emails from the instructor that will cover in detail reminders, logistics, updates, and so on.  Please note that the instructor will try to respond to all emails within 24 hours. Students should not expect immediate responses to emails sent late at night, during holidays, or on the weekends.
+---
 
-    *Assignment Notification:* All assignments will be posted on the course website. Each student is responsible for reviewing the website and its resources. After each class period, the students are asked to learn about the next homework assignment or other requirements and responsibilities related to the course.
+**Electronic Devices**  
+- **Mobile Devices:** Students may not use mobile devices in class unless otherwise indicated.
+- **Recording Class:** To ensure the free and open discussion of ideas, students may not record classroom lectures, discussions, and/or activities without the instructor’s advance written permission; any such recording can be used solely for their own private use. If a student has approved accommodations from the Office of Disability Resources permitting the recording of class meetings, the student must present the accommodation letter to the instructor in advance of any recording. On any days when classes will be recorded, the instructor will notify all students in advance. Distribution or sale of class recordings is prohibited without the written permission of the instructor and other students who are recorded.
 
-    *Instructional Technology Tools and Assistance:* If you need background on specific instructional technology tools, such as Zoom, NYU LMS (Brightspace) and Voicethread, check the [RITS Student Toolkit](https://wp.nyu.edu/shanghai-online_learning/). You may also email shanghai.rits@nyu.edu for assistance.
+---
 
-- **Academic Honesty/Plagiarism**
-    Carefully read NYU Shanghai’s *Statement on Academic Integrity* (in the [Undergraduate Bulletin](https://shanghai.nyu.edu/academics/curriculum/bulletin)).   Breaches of academic integrity could result in failure of an assignment, failure of the course, or other sanctions, as determined by the Academic Affairs office.
+**Instructional Technology**  
+- **Email Communication:** The course instructor will contact students regularly via email. Students should check for emails from the instructor that will cover in detail reminders, logistics, updates, and so on. Please note that the instructor will try to respond to all emails within 24 hours. Students should not expect immediate responses to emails sent late at night, during holidays, or on the weekends.
+- **Assignment Notification:** All assignments will be posted on the course website. Each student is responsible for reviewing the website and its resources. After each class period, the students are asked to learn about the next homework assignment or other requirements and responsibilities related to the course.
+- **Instructional Technology Tools and Assistance:** If you need background on specific instructional technology tools, such as Zoom, NYU LMS (Brightspace) and Voicethread, check the [RITS Student Toolkit](https://wp.nyu.edu/shanghai-online_learning/). You may also email [shanghai.rits@nyu.edu](mailto:shanghai.rits@nyu.edu) for assistance.
 
-- **Disability Disclosure Statement**
-    NYU Shanghai is committed to providing equal educational opportunity and participation for students with disabilities. It is NYU Shanghai’s policy that no student with a qualified disability is excluded from participating in any NYU Shanghai program or activity, denied the benefits of any NYU Shanghai program or activity, or otherwise subjected to discrimination with regard to any NYU Shanghai program or activity. Any student who needs reasonable accommodation based on a qualified disability should register with the [Moses Center for Student Accessibility](https://www.nyu.edu/students/communities-and-groups/student-accessibility.html) for assistance. Students can [register online](https://www.nyu.edu/students/communities-and-groups/student-accessibility/academic.html) through the Moses Center and can contact the Academic Accommodations Team at [shanghai.academicaccommodations@nyu.edu](mailto:shanghai.academicaccommodations@nyu.edu) with questions or for assistance.
+---
 
-- **Title IX Statement**
-    Title IX of the Education Amendments of 1972 (Title IX) prohibits discrimination on the basis of sex in educational programs. It protects victims of sexual or gender-based bullying and harassment and survivors of gender-based violence. Protection from discrimination on the basis of sex includes protection from being retaliated against for filing a complaint of discrimination or harassment. NYU Shanghai is committed to complying with Title IX and enforcing University policies prohibiting discrimination on the basis of sex. Mary Signor, Executive Director of the Office of Equal Opportunity, serves as the University’s Title IX Coordinator. The Title IX Coordinator is a resource for any questions or concerns about sex discrimination, sexual harassment, sexual violence, or sexual misconduct and is available to discuss your rights and judicial options. University policies define prohibited conduct, provide informal and formal procedures for filing a complaint, and a prompt and equitable resolution of complaints.
+**Academic Honesty/Plagiarism**  
+Carefully read NYU Shanghai’s *Statement on Academic Integrity* (in the [Undergraduate Bulletin](https://shanghai.nyu.edu/academics/curriculum/bulletin)). Breaches of academic integrity could result in failure of an assignment, failure of the course, or other sanctions, as determined by the Academic Affairs office.
 
-- **Links to the Title IX Policy and related documents:**
-  - [Sexual Misconduct, Relationship Violence, and Stalking Policy](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/sexual-misconduct--relationship-violence--and-stalking-policy.html)
-  - [Procedures for Complaints Against Students](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/test-reporting--investigating--and-resolving-sexual-misconduct--rela.html)
-  - [Procedures for Complaints Against Employees](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/reporting--investigating--and-resolving-sexual-misconduct--relat.html)
-  - [Resource Guide for Students](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/sexual-misconduct--relationship-violence--and-stalking-resource-.html)
-  - [Resource Guide for Employees](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/sexual-misconduct--relationship-violence--and-stalking-resource-0.html)
+---
+
+**Disability Disclosure Statement**  
+NYU Shanghai is committed to providing equal educational opportunity and participation for students with disabilities. It is NYU Shanghai’s policy that no student with a qualified disability is excluded from participating in any NYU Shanghai program or activity, denied the benefits of any NYU Shanghai program or activity, or otherwise subjected to discrimination with regard to any NYU Shanghai program or activity. Any student who needs reasonable accommodation based on a qualified disability should register with the [Moses Center for Student Accessibility](https://www.nyu.edu/students/communities-and-groups/student-accessibility.html) for assistance. Students can [register online](https://www.nyu.edu/students/communities-and-groups/student-accessibility/academic.html) through the Moses Center and can contact the Academic Accommodations Team at [shanghai.academicaccommodations@nyu.edu](mailto:shanghai.academicaccommodations@nyu.edu) with questions or for assistance.
+
+---
+
+**Title IX Statement**  
+Title IX of the Education Amendments of 1972 (Title IX) prohibits discrimination on the basis of sex in educational programs. It protects victims of sexual or gender-based bullying and harassment and survivors of gender-based violence. Protection from discrimination on the basis of sex includes protection from being retaliated against for filing a complaint of discrimination or harassment. NYU Shanghai is committed to complying with Title IX and enforcing University policies prohibiting discrimination on the basis of sex. Mary Signor, Executive Director of the Office of Equal Opportunity, serves as the University’s Title IX Coordinator. The Title IX Coordinator is a resource for any questions or concerns about sex discrimination, sexual harassment, sexual violence, or sexual misconduct and is available to discuss your rights and judicial options. University policies define prohibited conduct, provide informal and formal procedures for filing a complaint, and a prompt and equitable resolution of complaints.
+
+---
+
+**Links to the Title IX Policy and related documents:**
+- [Sexual Misconduct, Relationship Violence, and Stalking Policy](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/sexual-misconduct--relationship-violence--and-stalking-policy.html)
+- [Procedures for Complaints Against Students](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/test-reporting--investigating--and-resolving-sexual-misconduct--rela.html)
+- [Procedures for Complaints Against Employees](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/reporting--investigating--and-resolving-sexual-misconduct--relat.html)
+- [Resource Guide for Students](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/sexual-misconduct--relationship-violence--and-stalking-resource-.html)
+- [Resource Guide for Employees](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/sexual-misconduct--relationship-violence--and-stalking-resource-0.html)
+
 </details>
 
 <details>
   <summary><strong>Assignments & Grading</strong></summary>
-  For all assignments, you are required to demonstrate three important skills:
+For all assignments, you are required to demonstrate three important skills:
 
-  - **Divergence:** A need to showcase thorough research, investigation, and experimentation. It is often impossible to reach superb results if the initial research is limited and lacks depth and quality of resources or information.
-  - **Criticality:** It is paramount to be able to critically reflect on the researched or practiced content and identify what to keep and what to ignore. This skill can be sharpened if you are exposed frequently and to a sufficient amount of content from other artists and practitioners and understand in more detail their methods and motivations.
-  - **Convergence:** After you have done a wide series of experiments and you have critically reflected on the content, you need to showcase your convergence skills. In this stage, it is essential to focus on the optimization and exceptional refinement of your content. Rough outputs that lack numerous reiterations show poor results, even if the previous stages are completed perfectly. Consider planning ahead of time for making the necessary refinements that will showcase incredible final results.
+- **Divergence:** A need to showcase thorough research, investigation, and experimentation. It is often impossible to reach superb results if the initial research is limited and lacks depth and quality of resources or information.
+- **Criticality:** It is paramount to be able to critically reflect on the researched or practiced content and identify what to keep and what to ignore. This skill can be sharpened if you are exposed frequently and to a sufficient amount of content from other artists and practitioners and understand in more detail their methods and motivations.
+- **Convergence:** After you have done a wide series of experiments and you have critically reflected on the content, you need to showcase your convergence skills. In this stage, it is essential to focus on the optimization and exceptional refinement of your content. Rough outputs that lack numerous reiterations show poor results, even if the previous stages are completed perfectly. Consider planning ahead of time for making the necessary refinements that will showcase incredible final results.
 
-- ### Assignment 1
-  - ***Self, Perception, Archetypes*** (medium: text & images)
-  - **Prompt:** Create a series of images that showcase what a human being is; this needs to come from your subjective perspective and it has to depend on your analysis and methodology. A human being can be viewed through different lenses - can you provide a creative and original interpretation?
-  - Use generative AI (in combination with other media design tools as they may seem appropriate/fit) to provide your own subjective (and original) interpretation of what a human being is.
-  - **Deliverables:** 
-    - Provide 20 images that showcase your interpretations. Size of images should be at least FullHD (1920x1080px / 1080x1920px / 1920x1920px). Acceptable filetypes: PNG/JPEG. Zip the images and attach the zip file to the email.
-    - Provide a poem or literature excerpt to accompany your images (text format with proper referencing). The text needs to exist already and it has to support your aesthetic and ideological reflections.
-    - Presentation: 
-      - Select at least 3 final images at any aspect ratio and configuration. The images need to be printed on high-quality paper and presented/explained in class.
-      - Print your poem or literature excerpt to accompany your 3 final presented images. 
-
-- ### Assignment 2 (Midterm)
-  - ***Machines in Motion*** (medium: video, animation, sound)
-  - **Prompt Option 1**
-    By using the images generated in **Assignment 1** (or an update, depending on your preference), create a video between 2 to 4 minutes using generative AI. The video needs to have a music layer and a narration for your poem/literature excerpt
-    - **Deliverables:**
-      - A video clip with a length of 2-4 minutes, in .MP4 format, 1080p/2160p, 16:9 aspect ratio, 30fps.
-      - Your workflows (as images with the embedded code). The workflow needs to be an advanced iteration from the ones shared in class and showcase a particular development that aligns with your concept and intentions
-      - A file (pdf) that explains your workflow, together your intentions and methodologies. Explain what your artistic approach is, and how you derived the final results. You may include notes on things that worked well, and things that did not work as expected.
-   
-  - **Prompt Option 2**
-    Select this option if you are interested to work on a collaboration project for a festival submission. Participants need to produce content that follows specific instructions.
-    
-    - **Deliverables:** 
-      Submit weekly a specific list of generated content (variable specs will be given to you, depending on the workflow and production process).
-
-- ### Assignment 3
-  - ***Ad Virtualitas ad Infinitum (groups of 2)*** (medium: realtime 3D/VR)
-  - **Prompt:** For this assignment you are asked to create a virtual space that consists of generative-AI assets (images, videos, sounds, 3D objects, skyboxes).
-
-  - **Deliverables:** Send via email (`stavros.didakis@nyu.edu`) the following:
-      1. A rendered video of the final performance (using the Unity Recorder). The final video needs to have a length of around 1 minute that showcases in detail your scene (.MP4 format, 1920x1080p, 16:9 aspect ratio, 30fps).
-      2. Screenshots of your Unity project.
-      3. A written report (pdf) that explains your intentions and methodologies. Explain what your artistic approach is, and how you derived the final results. You may include notes on things that worked well, and things that did not work as expected (length ~300 words).
-
-- ### Assignment 4 (Final)
-  - ***Final Project*** (medium: open/mixed)
-  - **Prompt Option 1** (group of 3): Development of a physical media installation that includes selected content created during assignments 1, 2, and 3. The work includes the design of the structure for accommodating the media components, hardware installation, and tweaking and editing the content (prints, videos, sounds).
-  - **Prompt Option 2** (independent or groups of 2): For this option a proposal needs to be pitched for approval. The work needs to have an artistic focus and to utilize tools and methods as the ones covered during the semester but further expand on the usage, bringing a sophisticated and highly polished final result. 
-    You may consider creating projects such as the following:
-    - an interactive generative system,
-    - a real-time VR scene,
-    - a mix of media/techniques/materials.
 ---
 
-  - ### Class Participation & Attendance
-    Active participation and attendance are essential in this course. Students will be required to proceed to various teaching and learning activities during class, such as discussions, debates, practical exercises, and more.
+### Assignment 1
+- ***Self, Perception, Archetypes*** (medium: text & images)
+- **Prompt:** Create a series of images that showcase what a human being is; this needs to come from your subjective perspective and it has to depend on your analysis and methodology. A human being can be viewed through different lenses - can you provide a creative and original interpretation? Use generative AI (in combination with other media design tools as they may seem appropriate/fit) to provide your own subjective (and original) interpretation of what a human being is.
+- **Deliverables:** 
+  - Provide 20 images that showcase your interpretations. Size of images should be at least FullHD (1920x1080px / 1080x1920px / 1920x1920px). Acceptable filetypes: PNG/JPEG. Zip the images and attach the zip file to the email.
+  - Provide a poem or literature excerpt to accompany your images (text format with proper referencing). The text needs to exist already and it has to support your aesthetic and ideological reflections.
+  - **Presentation:**
+    - Select at least 3 final images at any aspect ratio and configuration. The images need to be printed on high-quality paper and presented/explained in class.
+    - Print your poem or literature excerpt to accompany your 3 final presented images.
 
-  - ### Homework & Reading Responses
-    The course necessitates the completion of homework such as readings, writings, and practical exercises. These are important elements that are required for achieving the learning outcomes of this course.
+---
 
-  - ### Marking Elements
-    | Class Participation & Attendance | 30% |
-    | --- | --- |
-    | Assignment 1 | 15% |
-    | Assignment 2 | 20% |
-    | Assignment 3 | 10% |
-    | Assignment 4 | 25% |
+### Assignment 2 (Midterm)
+- ***Machines in Motion*** (medium: video, animation, sound)
+- **Prompt Option 1**
+  By using the images generated in **Assignment 1** (or an update, depending on your preference), create a video between 2 to 4 minutes using generative AI. The video needs to have a music layer and a narration for your poem/literature excerpt.
+  - **Deliverables:**
+    - A video clip with a length of 2-4 minutes, in .MP4 format, 1080p/2160p, 16:9 aspect ratio, 30fps.
+    - Your workflows (as images with the embedded code). The workflow needs to be an advanced iteration from the ones shared in class and showcase a particular development that aligns with your concept and intentions.
+    - A file (pdf) that explains your workflow, together with your intentions and methodologies. Explain what your artistic approach is, and how you derived the final results. You may include notes on things that worked well, and things that did not work as expected.
 
-    [The course rubric can be found here](https://docs.google.com/spreadsheets/d/1pJvsyA3RSv_4aOTyX1bs702O-ln5NgTQu87aURWNng0/edit#gid=0).
+- **Prompt Option 2**
+  Select this option if you are interested to work on a collaboration project for a festival submission. Participants need to produce content that follows specific instructions.
+  - **Deliverables:** 
+    Submit weekly a specific list of generated content (variable specs will be given to you, depending on the workflow and production process).
+
+---
+
+### Assignment 3
+- ***Ad Virtualitas ad Infinitum (groups of 2)*** (medium: realtime 3D/VR)
+- **Prompt:** For this assignment, you are asked to create a virtual space that consists of generative-AI assets (images, videos, sounds, 3D objects, skyboxes).
+- **Deliverables:** Send via email (`stavros.didakis@nyu.edu`) the following:
+  1. A rendered video of the final performance (using the Unity Recorder). The final video needs to have a length of around 1 minute that showcases in detail your scene (.MP4 format, 1920x1080p, 16:9 aspect ratio, 30fps).
+  2. Screenshots of your Unity project.
+  3. A written report (pdf) that explains your intentions and methodologies. Explain what your artistic approach is, and how you derived the final results. You may include notes on things that worked well, and things that did not work as expected (length ~300 words).
+
+---
+
+### Assignment 4 (Final)
+- ***Final Project*** (medium: open/mixed)
+- **Prompt Option 1** (group of 3): Development of a physical media installation that includes selected content created during assignments 1, 2, and 3. The work includes the design of the structure for accommodating the media components, hardware installation, and tweaking and editing the content (prints, videos, sounds).
+- **Prompt Option 2** (independent or groups of 2): For this option, a proposal needs to be pitched for approval. The work needs to have an artistic focus and to utilize tools and methods as the ones covered during the semester but further expand on the usage, bringing a sophisticated and highly polished final result. 
+  You may consider creating projects such as the following:
+  - An interactive generative system
+  - A real-time VR scene
+  - A mix of media/techniques/materials
+
+---
+
+### Class Participation & Attendance
+Active participation and attendance are essential in this course. Students will be required to proceed to various teaching and learning activities during class, such as discussions, debates, practical exercises, and more.
+
+---
+
+### Homework & Reading Responses
+The course necessitates the completion of homework such as readings, writings, and practical exercises. These are important elements that are required for achieving the learning outcomes of this course.
+
+---
+
+### Marking Elements
+| Component                         | Weight |
+| --------------------------------- | ------ |
+| Class Participation & Attendance  | 30%    |
+| Assignment 1                      | 15%    |
+| Assignment 2                      | 20%    |
+| Assignment 3                      | 10%    |
+| Assignment 4                      | 25%    |
+
+[The course rubric can be found here](https://docs.google.com/spreadsheets/d/1pJvsyA3RSv_4aOTyX1bs702O-ln5NgTQu87aURWNng0/edit#gid=0).
+
 </details>
 
 <details>
@@ -185,28 +221,28 @@ For materials not available to you immediately, you can request scanned copies o
 <details>
   <summary><strong>1. Introduction to Synthetic Media</strong></summary>
 
-- **Course Overview**
 - **Lecture:** [An Introduction to Synthetic Media](https://www.canva.com/design/DAF6Co7XtIM/nRs0JgC824gK2ulqGsSBRg/view?utm_content=DAF6Co7XtIM&utm_campaign=designshare&utm_medium=link&utm_source=editor)
-    
+
 - **Research:** Synthetic Media Assignment 1 (@[Miro](https://miro.com/app/board/uXjVN4LnVvM=/?share_link_id=420225905247))
+
 - **Homework (deadline: Wed 31 Jan, by 12 noon)**
-    - **Readings:**
-        1. AI2041 Ten Visions of the Future (read at least one chapter from the following list)
-            - `AI2041, Ch.2: Gods Behind the Masks`
-            - `AI2041, Ch.3: Twin Sparrows`
-            - `AI2041, Ch.5: My Haunting Idol`
-                
-    - **Practice:**
-        1. Install ComfyUI
-            [GitHub - comfyanonymous/ComfyUI: The most powerful and modular stable diffusion GUI, api and backend with a graph/nodes interface.](https://github.com/comfyanonymous/ComfyUI?tab=readme-ov-file#installing)
-            
-            [How to install ComfyUI - Stable Diffusion Art](https://stable-diffusion-art.com/how-to-install-comfyui/)
-            
-        - Windows (free, needs NVIDIA and/or )
-        - Mac (free, needs M1 or above)
-        - Cloud Services (paid, resources included): [Shadow PC Pro: Discover the offers](https://shadow.tech/shadowpro/offers), [RunDiffusion - Automatic1111 in the Cloud](https://rundiffusion.com/), [IT RITS](https://stable-diffusion.ritsdev.top/)
-            
-        2. Write a daily diary about yourself - your thoughts, dreams, concerns. Do this as a meditative exercise, and go as deep in you as you can. You are responsible for defining the length of the text (certainly no less than a couple of sentences, and no more than 1000 words per day). Do not handwrite it - use a text editor. Uses of ChatGPT or similar text generators are strictly forbidden here.            
+  - **Readings:**
+    - **AI2041 Ten Visions of the Future** (read at least one chapter from the following list)
+        - `AI2041, Ch.2: Gods Behind the Masks`
+        - `AI2041, Ch.3: Twin Sparrows`
+        - `AI2041, Ch.5: My Haunting Idol`
+
+  - **Practice:**
+    - **Install ComfyUI**
+       - [GitHub - comfyanonymous/ComfyUI: The most powerful and modular stable diffusion GUI, API, and backend with a graph/nodes interface.](https://github.com/comfyanonymous/ComfyUI?tab=readme-ov-file#installing)
+       - [How to install ComfyUI - Stable Diffusion Art](https://stable-diffusion-art.com/how-to-install-comfyui/)
+       
+       - **Windows** (free, needs NVIDIA and/or)
+       - **Mac** (free, needs M1 or above)
+       - **Cloud Services** (paid, resources included): [Shadow PC Pro: Discover the offers](https://shadow.tech/shadowpro/offers), [RunDiffusion - Automatic1111 in the Cloud](https://rundiffusion.com/), [IT RITS](https://stable-diffusion.ritsdev.top/)
+
+    - **Write a daily diary about yourself** - your thoughts, dreams, concerns. Do this as a meditative exercise, and go as deep as you can. You are responsible for defining the length of the text (certainly no less than a couple of sentences, and no more than 1000 words per day). Do not handwrite it - use a text editor. Uses of ChatGPT or similar text generators are strictly forbidden here.
+         
 </details>
 
 <details>
