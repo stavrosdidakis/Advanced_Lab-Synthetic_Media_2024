@@ -1,12 +1,10 @@
 # Advanced_Lab-Synthetic_Media_2024
 
-<details>
-  <summary><strong>Overview</strong></summary>
-
+**Interactive Media Arts, NYU Shanghai**
 **Instructor:** Dr. Stavros Didakis  
 **Email:** `stavros.didakis@nyu.edu`  
 **Course number:** INTM-SHU 306  
-**Course Title:** Synthetic Media  
+**Course Title:** Synthetic Media
 
 ---
 
@@ -31,8 +29,6 @@ Upon completion of this course, students will be able to:
 - Work with state-of-the-art platforms and models for generating synthetic media content
 - Experiment with implementing the generated media content with platforms for interaction design and virtual reality
 - Develop critical thinking skills through analyzing and reflecting on the implications of synthetic media in society and culture
-
-</details>
 
 <details>
   <summary><strong>Course Policies</strong></summary>
@@ -334,7 +330,7 @@ For materials not available to you immediately, you can request scanned copies o
 </details>
 
 <details>
-  <summary><strong>4. Presentations</strong></summary>
+  <summary><strong>4. Assignment 1 Presentations</strong></summary>
 </details>
 
 <details>
@@ -421,7 +417,7 @@ For materials not available to you immediately, you can request scanned copies o
 </details>    
 
 <details>
-  <summary><strong>8. Midterm Presentations</strong></summary>
+  <summary><strong>8. Assignment 2 Presentations</strong></summary>
 
 - **Presentations**    
 - **AI Film Festival - Selected Videos**
@@ -1116,3 +1112,8 @@ For materials not available to you immediately, you can request scanned copies o
 </details>
 
 </details>
+
+---
+
+Outputs of the course appear in:
+**Ars Electronica Campus Exhibition 2024**
