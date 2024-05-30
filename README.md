@@ -252,7 +252,7 @@ For materials not available to you immediately, you can request scanned copies o
 - **Lecture:** [Creativity & Originality - Reviewing “Synthetic Cities” as a Case Study](https://www.canva.com/design/DAF6ufPdzUk/KdBCIL73PxQIFKh63pGiQw/view?utm_content=DAF6ufPdzUk&utm_campaign=designshare&utm_medium=link&utm_source=editor)
     
 - **Workshop: Text-To-Image Generation & Prompt Engineering**
-    - <ins>ComfyUI Installation Instructions</ins>
+    - **ComfyUI Installation Instructions:**
         
         [ComfyUI](https://github.com/comfyanonymous/ComfyUI), [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager)
         
@@ -260,7 +260,7 @@ For materials not available to you immediately, you can request scanned copies o
 
         [How to install ComfyUI](https://stable-diffusion-art.com/how-to-install-comfyui/)
             
-    - <ins>Text-To-Image / Prompt Engineering</ins>
+    - **Text-To-Image / Prompt Engineering:**
         
         [CLIP: Connecting text and images](https://openai.com/research/clip)
         
@@ -268,7 +268,7 @@ For materials not available to you immediately, you can request scanned copies o
         
         [PromptHero - Search prompts for Stable Diffusion, ChatGPT & Midjourney](https://prompthero.com/)
 
-    - <ins>ComfyUI Workflows</ins>
+    - **ComfyUI Workflows:**
                 
         - **Text to Image** (basic)
             ![s2-w1 Text-To-Image(basic).png](images/s2-w1_Text-To-Image(basic).png)
@@ -304,19 +304,17 @@ For materials not available to you immediately, you can request scanned copies o
     - [How Stable Diffusion Works](https://www.youtube.com/watch?v=sFztPP9qPRc)
         
 - **Homework**
-    - **Reading:**
-        1. [Margaret Boden - The Creative Mind (In a Nutshell)](https://drive.google.com/file/d/14AmrDQfrMaR5knxZkhDJuJ_LnHWU_60x/view?usp=drive_link)
-                
+    - **Reading:** `Margaret Boden - The Creative Mind (In a Nutshell)`
     - **Practice:**
-        1. Homework: Create five city images and text narratives - as in the case of “Urban Echoes” from “Synthetic Cities”. Strongly consider extracting/using features from your dreams and fears. 
-            1. Image size should be no less than 1920x1080px
-            2. Each text description should be between 100 to 200 words
+      - Create five city images and text narratives - as in the case of “Urban Echoes” from “Synthetic Cities”. Strongly consider extracting/using features from your dreams and fears. 
+        - Image size should be no less than 1920x1080px
+        - Each text description should be between 100 to 200 words
 </details>
 
 <details>
-  <summary><strong>3. ComfyUI Workshop / Tutorials</strong></summary>
+  <summary><strong>3. Art Methodologies</strong></summary>
 
-- [Art References](https://www.canva.com/design/DAF8jT8uE2Y/ClN1RXBt5igUxiwNsGZbfQ/edit?utm_content=DAF8jT8uE2Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- [Art Methodologies](https://www.canva.com/design/DAF8jT8uE2Y/ClN1RXBt5igUxiwNsGZbfQ/edit?utm_content=DAF8jT8uE2Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
     
 - **ComfyUI Workflows:**
     - **LoRA** (with upscale)
