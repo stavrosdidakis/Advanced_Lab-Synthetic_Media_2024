@@ -1079,6 +1079,9 @@ The workshop provides a practical framework for utilizing Unity for creating a c
 
 
 - <details><summary><strong>VR in Unity</strong></summary>
+  Unity provides a range of resources for the development of a VR project. Via Unity Hub we are able to download templates for VR/AR/XR. Having the appropriate templates in place, we can create a new project and enable support for the specific hardware (i.e. Oculus Quest 2) - this can be enabled from Edit > Project Settings > XR Plug-in Management and enable the XR Plug-In by selecting the specific SDKs for the target device.
+
+  Following that, we can import the necessary SDKs or integration packages from the Unity **Asset Store** or the VR hardware manufacturer’s website. Unity allows the addition of VR camera system and interaction, and visualize directly on the headset the created content (as it appears in the **Game** view) - in the case of **Quest 2** this is achieved by **Quest Link**.
 
   - **Resources**
     - [Setting Up Meta Quest 2 for Unity Development](https://medium.com/@rogermoore06/setting-up-the-meta-quest-2-for-unity-development-780e6c5ac346)
@@ -1086,7 +1089,7 @@ The workshop provides a practical framework for utilizing Unity for creating a c
     - [Unity VR Development with Quest](https://www.youtube.com/watch?v=7mAAkB1WGpk)
 
 - <details><summary><strong>Unity Recorder</strong></summary>
-    The Unity Recorder is a tool that allows you to record images or videos of your project. Before you can wor with the Unity Recorder, make sure that you install it from **Window** > **Package Manager.**
+    The Unity Recorder is a tool that allows you to record images or videos of your project. Before you can wor with the Unity Recorder, make sure that you install it from Window > Package Manager.
     
     On the Package Manager, make sure that you select **Unity Registry** on the top left menu (next to the + icon). Then, use the search bar to find the asset, and install it into your project.
     
@@ -1161,7 +1164,7 @@ Mapping out a research project is crucial as it provides a clear structure and d
   - Review personal diaries and selection of words and phrases
   - Visual research on websites like CivitAI and Midjourney; explore images and prompts that align with the selected words from the diaries
   - A database of images needs to be selected and edited on Photoshop so that they all have same dimensions (1280x720). The images can be outpainted in cases that the aspect ratio is inappropriate.
-  - Selection of final images can be found on [this link](https://drive.google.com/drive/folders/1kc5ebOf8gBEDTLKyOztycv43RKCtOdub?usp=drive_link).
+  - Selection of final images can be found on [this link](https://drive.google.com/drive/folders/1kc5ebOf8gBEDTLKyOztycv43RKCtOdub?usp=drive_link)
   
 **Examples:**
   - The images are taken into ComfyUI (input folder). ![This is the worklflow used](images/s12-exampleWorflow.png).
