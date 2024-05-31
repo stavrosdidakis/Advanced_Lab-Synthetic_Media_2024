@@ -453,7 +453,7 @@ The session focuses on providing students tutorial support for the development o
 <details>
   <summary><strong>8. Assignment 2 Presentations</strong></summary>
 
-- **Presentations (examples)**
+- **Presentations**
   ![Submission Examples](images/s8-previews.gif) 
 
 - **AI Film Festival - Selected Videos**
@@ -1114,7 +1114,7 @@ The workshop provides a practical framework for utilizing Unity for creating a c
 <details>
   <summary><strong>11. Assignment 3 Presentations</strong></summary>
 
-- **Presentations**    
+  ![Assignment 3](images/s11-presentations.gif)
 
 </details>
 
@@ -1166,10 +1166,12 @@ Mapping out a research project is crucial as it provides a clear structure and d
   - Review personal diaries and selection of words and phrases
   - Visual research on websites like CivitAI and Midjourney; explore images and prompts that align with the selected words from the diaries
   - A database of images needs to be selected and edited on Photoshop so that they all have same dimensions (1280x720). The images can be outpainted in cases that the aspect ratio is inappropriate.
-  - Selection of final images can be found on [this link](https://drive.google.com/drive/folders/1kc5ebOf8gBEDTLKyOztycv43RKCtOdub?usp=drive_link)
-  
-**Examples:**
-  - The images are taken into ComfyUI (input folder). ![This is the worklflow used](images/s12-exampleWorflow.png).
+  - Selection of final images can be found on [this link](https://drive.google.com/drive/folders/1kc5ebOf8gBEDTLKyOztycv43RKCtOdub?usp=drive_link).
+    
+    ***
+    
+    **Example Workflow:**
+      ![This is the worklflow used](images/s12-exampleWorflow.png)
   
   - The workflow uses 4 different image inputs for the visual references (need to ensure that the input folder of **ComfyUI** has ONLY the images that you want to use for your selection). In the workflow, the **Primitive** nodes will randomly pick one image from the input folder every time we hit a new **Queue**. If you need continuous variations, you can set **Auto Queue** inside **Extra Options**.
   
@@ -1189,7 +1191,11 @@ Mapping out a research project is crucial as it provides a clear structure and d
 
 <details>
   <summary><strong>14. Final Presentations</strong></summary>
+
+  ![Random Prompts](images/s14-final.gif)
+
 </details>
+
 
 <details>
   <summary><strong>Participating Students</strong></summary>
