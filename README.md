@@ -453,7 +453,9 @@ The session focuses on providing students tutorial support for the development o
 <details>
   <summary><strong>8. Assignment 2 Presentations</strong></summary>
 
-- **Presentations**    
+- **Presentations (examples)**
+  ![Submission Examples](images/s8-previews.gif) 
+
 - **AI Film Festival - Selected Videos**
     - [Generation](https://www.youtube.com/watch?v=mL1rs3NRgIg)
     
