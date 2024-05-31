@@ -336,7 +336,7 @@ For this session, a series of art references are contextualized and analyzed, pr
 
 <details>
   <summary><strong>4. Assignment 1 Presentations</strong></summary>
-Selected examples of generative AI imagery developed for Assignment 1:
+Selected examples of synthetic imagery developed for Assignment 1:
 <table>
   <tr>
     <td><img src="images/s4-1.png" alt="Image 1" style="width:200px; padding:0px;"/></td>
@@ -453,7 +453,7 @@ The session focuses on providing students tutorial support for the development o
 <details>
   <summary><strong>8. Assignment 2 Presentations</strong></summary>
 
-- **Presentations**
+Selected examples of synthetic video developed for Assignment 2:
   ![Submission Examples](images/s8-previews.gif) 
 
 - **AI Film Festival - Selected Videos**
@@ -1114,6 +1114,7 @@ The workshop provides a practical framework for utilizing Unity for creating a c
 <details>
   <summary><strong>11. Assignment 3 Presentations</strong></summary>
 
+Selected examples of VR spaces with synthetic media developed for Assignment 3:
   ![Assignment 3](images/s11-presentations.gif)
 
 </details>
