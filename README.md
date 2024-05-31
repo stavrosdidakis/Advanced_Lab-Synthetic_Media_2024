@@ -216,6 +216,7 @@ For materials not available to you immediately, you can request scanned copies o
 
 <details>
   <summary><strong>1. Introduction to Synthetic Media</strong></summary>
+The session provides a general introduction and overview for synthetic media. Main characteristics of the topic are contextualized through lecture, discussions, and in-class activities. During this session the main tools and frameworks that are needed for this course are briefly explained.
 
 - **Lecture:** [An Introduction to Synthetic Media](https://www.canva.com/design/DAF6Co7XtIM/nRs0JgC824gK2ulqGsSBRg/view?utm_content=DAF6Co7XtIM&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
@@ -243,6 +244,7 @@ For materials not available to you immediately, you can request scanned copies o
 
 <details>
   <summary><strong>2. Creativity & Originality</strong></summary>
+The session provides a theoretical and conceptual component that focuses on understanding creativity and originality in relation to the generative content and the methodologies employed in utilizing synthetic media for artistic practice. In addition, a series of workflows are analyzed so as to ensure a practical framework for the development of the assignment prompts.
 
 - **Reading Discussion**
 - **Lecture:** [Creativity & Originality - Reviewing “Synthetic Cities” as a Case Study](https://www.canva.com/design/DAF6ufPdzUk/KdBCIL73PxQIFKh63pGiQw/view?utm_content=DAF6ufPdzUk&utm_campaign=designshare&utm_medium=link&utm_source=editor)
@@ -283,7 +285,8 @@ For materials not available to you immediately, you can request scanned copies o
         - **Image to Image**
             
             ![s2-w1 Image-To-Image.png](images/s2-w1_Image-To-Image.png)
-            ***
+
+---
         
 - **Resources:**
   - Understanding [Techniques Midjourney AI Styles | Andrei Kovalev's Midlibrary 2.0](https://midlibrary.io/categories/techniques)
@@ -309,6 +312,7 @@ For materials not available to you immediately, you can request scanned copies o
 
 <details>
   <summary><strong>3. Art Methodologies</strong></summary>
+For this session, a series of art references are contextualized and analyzed, providing a thought structure in regards to the development of the utilization of AI and ML for the creation of visual artworks. The practical part of the session focuses on the development of advanced image creation tools and techniques (SDXL, LoRAs, LCM, ControlNet, IPAdapter, 2nd-Pass Sampling).
 
 - [Art Methodologies](https://www.canva.com/design/DAF8jT8uE2Y/ClN1RXBt5igUxiwNsGZbfQ/edit?utm_content=DAF8jT8uE2Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
     
@@ -331,7 +335,7 @@ For materials not available to you immediately, you can request scanned copies o
 
 <details>
   <summary><strong>4. Assignment 1 Presentations</strong></summary>
-Selected examples of generative AI imagery:
+Selected examples of generative AI imagery developed for Assignment 1:
 <table>
   <tr>
     <td><img src="images/1.png" alt="Image 1" style="width:200px; padding:0px;"/></td>
@@ -358,6 +362,7 @@ Selected examples of generative AI imagery:
 
 <details>
   <summary><strong>5. Video/Animation Development  & Guest Talk</strong></summary>
+The session consists of a main lecture that focuses in providing an overall analysis of the area of AI video/animation, explaining main motivations, methods, and practices. Following that, a practical workshop explains how it is possible to extend the previous image generation practices to accommodate video and animation. For the last part of the session, Iannis Bardakos provides an overall overview of his research practice related to the dynamic interplay between technicity, aesthetics, and processes through techno-mathematical lenses.
 
 - **Lecture:** [AI Video/Animation](https://www.canva.com/design/DAF-R0Mu6-Y/GhjS7XL5Z1kjpLcutBBIbg/edit?utm_content=DAF-R0Mu6-Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
@@ -376,6 +381,8 @@ Selected examples of generative AI imagery:
     
     - [Steerable Motion](https://github.com/banodoco/Steerable-Motion)
 
+---
+
 - **Guest Talk with Iannis Bardakos**
     > Iannis Bardakos, an artist and art theorist with over three decades of experience, has worked globally as an educator and creative media expert. He has taught in Greece, Spain, France, and China, and his work has been exhibited internationally. His interdisciplinary approach blends mathematics, philosophy, and the arts, transcending traditional boundaries. Bardakos's expertise extends to digital media, humanities, and cybernetics, with a deep interest in the philosophy of technology. His research and teaching explore the dynamic interplay between technicity, aesthetics, and processes through a techno-mathematical lens. He holds dual doctoral degrees: one in Aesthetics, Sciences, and Technologies of the Arts from Paris 8 University, and another in the Theory and History of Arts from the Athens School of Fine Arts. Bardakos contributes as a co-editor to the Technoetic Arts Journal and is an active member-at-large in the American Society for Cybernetics. His work, positioned within a post-human framework, aims to redefine and reformulate the relationship between art and experience.
     > 
@@ -384,9 +391,10 @@ Selected examples of generative AI imagery:
 </details>
 
 <details>
-  <summary><strong>6. Video/Animation Development</strong></summary>
-        
-    
+  <summary><strong>6. Advanced Video/Animation Development</strong></summary>
+
+This workshop focuses on developing advanced techniques for creating synthetic video/animations such as using batch scheduling, automated extraction of text prompts from images, Motion LoRAs, and techniques for consistensy and high-quality visual content. Moreover, strategies for post-production are also covered for sound, frame interpolation, 4K upscaling, compression, etc.
+
 - **ComfyUI Workflows** 
   - Batch Prompt Scheduler, AnimateDiff (Resources: [CivitAI](https://civitai.com/search/models?modelType=Workflows&sortBy=models_v5), [OpenArtAI](https://openart.ai/workflows/home?workflowSort=featured), [ComfyWorkflows](https://comfyworkflows.com/), [ThinkDiffusion](https://learn.thinkdiffusion.com/a-list-of-the-best-comfyui-workflows/))
       ![Workshop-VideoAnimation.png](images/Workshop-VideoAnimation.png)
@@ -395,7 +403,8 @@ Selected examples of generative AI imagery:
   - Image Input, WD14 Tagger, IPAdapter, Motion LoRA
     
     ![Workflow-Image-To-Video-with-Motion-LoRA.png](images/Workflow-Image-To-Video-with-Motion-LoRA.png)
-    ***
+    
+***
 
 - **Video Development Resources**
     - Sound & Music
@@ -411,6 +420,9 @@ Selected examples of generative AI imagery:
     - Video Editing/Composition
         - [https://www.capcut.com/](https://www.capcut.com/) (video editor)
         - [CapCut Tutorial](https://www.youtube.com/watch?v=yMbu1A5N-jc)
+
+---
+
 - **Post-Production Diagram**
     
     ![Post-Production.png](images/Post-Production.png)
@@ -428,7 +440,8 @@ Selected examples of generative AI imagery:
     
   - Image-To-Video, Upscale, Interpolate
     ![Workflow-AnimateDiff-Image-Upscale-Interpolate.png](images/Workflow-AnimateDiff-Image-Upscale-Interpolate.png)
-    ***
+
+***
     
 - **Guest Talk with Vassilis Galanos:**
     > In this previously unpublished work, the presenter will suggest that the vast majority of contemporary generative artificial intelligence (GenAI) art is kitsch. Dr Galanos will demonstrate aspects of visual AI’s last ten years of development as a sociotechnical construct, a combination of technical programming corresponding to social factors. He will argue that the driving force behind the entropic proliferation of (Gen)AI kitsch is an interplaying function of schizo-capitalist regimes promoting double binds of (a) regulatory frameworks containing AI within hegemonic political correctness and (b) nationalist mandates for AI innovation.
@@ -466,57 +479,59 @@ Selected examples of generative AI imagery:
 
 - <details>
   <summary><strong>Unity Basics</strong></summary>
-    To start developing a **Unity** project, you first need to install Unity Hub, and a code editor:
+    To start developing a Unity project, you first need to install Unity Hub, and a code editor:
     
     - [Visual Studio Code,](https://code.visualstudio.com/download) [NET (](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)[details)](https://code.visualstudio.com/docs/languages/dotnet), [Mono](https://www.mono-project.com/download/stable/)
     - [Unity Hub](https://store.unity.com/download) and an LTS Unity Editor 21/22 (recommended: 2022.3.14f LTS)
         
     Following the installation of the required software, you can open **Unity Hub**, a tool that allows us to manage our Unity projects as well as install different versions of Unity Editor.
-    
-  - **Unity Hub**
-      When you open Unity Hub for the first time, you will be prompted to log in with your Unity ID. If you don't have one, you can create it for free. In Unity Hub’s Preferences menu, select License, and activate a Personal license (which is free). The personal licenses expire after a few days, but you can install it again with the same process.
+  
+    **Unity Hub**
+    When you open Unity Hub for the first time, you will be prompted to log in with your Unity ID. If you don't have one, you can create it for free. In Unity Hub’s Preferences menu, select License, and activate a Personal license (which is free). The personal licenses expire after a few days, but you can install it again with the same process.
       
-      The Unity Hub will show you a list of all Unity versions installed on your computer (you can have multiple versions of Unity if you want). If you don't have any versions installed, you can click on the "Installs" button to install a new version.
+    The Unity Hub will show you a list of all Unity versions installed on your computer (you can have multiple versions of Unity if you want). If you don't have any versions installed, you can click on the "Installs" button to install a new version.
       
-      Here are the main tabs that you need to know about Unity Hub:
-      - Projects - To open an existing project or create a new one, click on the "Projects" button and then select the option that you want.
-      - Installs - To manage and install different versions of Unity, click on the "Installs" button. Here you can see all the versions of Unity installed on your computer, and you can also install new versions or delete old ones.
-      - Learn - To access Unity documentation and tutorials, click on the "Learn" button.
-      - Other options include the Community, UOS, and Developer Services (which are not going to be covered).
+    Here are the main tabs that you need to know about Unity Hub:
+    - Projects - To open an existing project or create a new one, click on the "Projects" button and then select the option that you want.
+    - Installs - To manage and install different versions of Unity, click on the "Installs" button. Here you can see all the versions of Unity installed on your computer, and you can also install new versions or delete old ones.
+    - Learn - To access Unity documentation and tutorials, click on the "Learn" button.
+    - Other options include the Community, UOS, and Developer Services (which are not going to be covered).
           
       ![Unity Hub](images/s23-s1_unityHub1.png)
-          
-  - **Creating a Project with the Unity Hub**
+  ---
+  **Creating a Project with the Unity Hub**
   To create a new project in Unity, open the Unity Hub and click on the "New Project" button. In the "New Project" window, select the appropriate version for your project from the drop-down menu - 2022.3.14f LTS. Next, select the URP (Universal Rendering Pipeline) or the HDRP (High Definition Rendering Pipeline) template from the list of templates.
   In the right side panel, set the project name and location. You can also choose to create a new folder for your project if you want to. Finally, uncheck the checkbox for "Enable PlasticSCM". This will prevent Unity from using the PlasticSCM version control system for your project.
   Click on the "Create Project" button to create your new Unity 3D project. Once the project is created, you will be taken to the Unity editor where you can start working on your application.
-      
-  - **Unity Editor**
+
+  ---
+
+  **Unity Editor**
     
-      ![Unity Hub](images/s23-s1_unityEditor1.png)
+    ![Unity Hub](images/s23-s1_unityEditor1.png)
       
-      The Unity editor is divided into several main areas. The most important ones are the following: the Scene view, the Game view, the Hierarchy, the Project, Inspector, and Console.
-      - The Scene view is where you can see and edit your 3D objects in your scene. You can navigate and manipulate the camera, as well as select and move objects in the Scene view.
-      - The Game view is where you can see what your game or application will look like when it is running. You can run the “Game” by clicking on the Play/Stop buttons at the top of the screen.
-      - The Hierarchy is where you can see all the objects in your scene organized in a hierarchical tree structure. You can select, move, and delete objects from the Hierarchy.
-      - The Project is where you can access all the assets and files in your project. You can import new assets, create new folders, and access the scripts and prefabs in your project.
-      - The Inspector is where you can see and edit the properties of the currently selected object. You can change the object's position, rotation, scale, as well as access its materials, scripts, and other components.
-      - The Console is where we can check if everything runs correctly with our project. This helps us to debug code or other issues that may occur during execution.
-      
-      Other important panels and features include the **Toolbar**, **Lighting**, and more.
-      
-      - The Toolbar at the top of the Unity editor is where you can access different tools such as the move, rotate, and scale tools. You can also access different windows and settings from the Toolbar.
-          - The **Hand** Tool allows **panning** around the Scene.
-          - Press key **Alt** (Windows) or **Option** (Mac) and left-click and drag to **Orbit** the Camera around the current pivot point.
-          - Scroll (mouse or keypad) to **zoom** in and out the scene.
-          - The **Move**, **Rotate**, **Scale**, **Rect Transform** and **Transform** tools allow you to edit individual GameObjects.
-          - Shortcuts: **Q-W-E-R-T-Y**
-          - [Toolbar Link](https://docs.unity3d.com/Manual/Toolbar.html)
-          - [Hierarchy Link](https://docs.unity3d.com/Manual/Hierarchy.html)
-      - The Lighting window is where you can set up and adjust lighting for your project. You can add and adjust lights, as well as change the environment settings.
-      - Additional windows and panels can be found on the main Unity Menu/Windows.
+  The Unity editor is divided into several main areas. The most important ones are the following: the **Scene** view, the **Game** view, the **Hierarchy**, the **Project**, **Inspector**, and **Console**.
+    - The **Scene** view is where you can see and edit your 3D objects in your scene. You can navigate and manipulate the camera, as well as select and move objects in the Scene view.
+    - The **Game** view is where you can see what your game or application will look like when it is running. You can run the “Game” by clicking on the Play/Stop buttons at the top of the screen.
+    - The **Hierarchy** is where you can see all the objects in your scene organized in a hierarchical tree structure. You can select, move, and delete objects from the Hierarchy.
+    - The **Project** is where you can access all the assets and files in your project. You can import new assets, create new folders, and access the scripts and prefabs in your project.
+    - The **Inspector** is where you can see and edit the properties of the currently selected object. You can change the object's position, rotation, scale, as well as access its materials, scripts, and other components.
+    - The **Console** is where we can check if everything runs correctly with our project. This helps us to debug code or other issues that may occur during execution.
+    <br>
+
+    Other important panels and features include the **Toolbar**, **Lighting**, and more.
+    - The **Toolbar** at the top of the Unity editor is where you can access different tools such as the move, rotate, and scale tools. You can also access different windows and settings from the **Toolbar**.
+    - The **Hand** Tool allows **panning** around the Scene.
+    - Press key **Alt** (Windows) or **Option** (Mac) and left-click and drag to **Orbit** the Camera around the current pivot point.
+    - Scroll (mouse or keypad) to **zoom** in and out the scene.
+    - The **Move**, **Rotate**, **Scale**, **Rect Transform** and **Transform** tools allow you to edit individual GameObjects.
+    - Shortcuts: **Q-W-E-R-T-Y**
+      - [Toolbar Link](https://docs.unity3d.com/Manual/Toolbar.html)
+      - [Hierarchy Link](https://docs.unity3d.com/Manual/Hierarchy.html)
+    - The Lighting window is where you can set up and adjust lighting for your project. You can add and adjust lights, as well as change the environment settings.
+    - Additional windows and panels can be found on the main Unity Menu/Windows.
           
-          ![https://soniconlab.com/wp-content/uploads/2023/01/s1-moveTool.gif](https://soniconlab.com/wp-content/uploads/2023/01/s1-moveTool.gif)
+      ![https://soniconlab.com/wp-content/uploads/2023/01/s1-moveTool.gif](https://soniconlab.com/wp-content/uploads/2023/01/s1-moveTool.gif)
           
   - **Primitives**
       To add 3D objects in the scene go to the **Hierarchy** panel, and either click the **+** sign, or right click on the Hierarchy panel area, to have the sub-menu appear. Select 3D Object, then choose the type of object you want to create, such as a cube, sphere, or plane. The new object will appear in the Hierarchy panel and the Scene view.
