@@ -231,12 +231,12 @@ The session provides a general introduction and overview for synthetic media. Ma
 
   - **Practice:**
     - **Install ComfyUI**
-       - [GitHub - comfyanonymous/ComfyUI: The most powerful and modular stable diffusion GUI, API, and backend with a graph/nodes interface.](https://github.com/comfyanonymous/ComfyUI?tab=readme-ov-file#installing)
-       - [How to install ComfyUI - Stable Diffusion Art](https://stable-diffusion-art.com/how-to-install-comfyui/)
+       - [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI?tab=readme-ov-file#installing)
+       - [Installing ComfyUI](https://stable-diffusion-art.com/how-to-install-comfyui/)
        
        - **Windows** (free, needs NVIDIA and/or)
        - **Mac** (free, needs M1 or above)
-       - **Cloud Services** (paid, resources included): [Shadow PC Pro: Discover the offers](https://shadow.tech/shadowpro/offers), [RunDiffusion - Automatic1111 in the Cloud](https://rundiffusion.com/), [IT RITS](https://stable-diffusion.ritsdev.top/)
+       - **Cloud Services** (paid, resources included): [Shadow PC](https://shadow.tech/shadowpro/offers), [RunDiffusion](https://rundiffusion.com/), [IT RITS](https://stable-diffusion.ritsdev.top/)
 
     - **Write a daily diary about yourself** - your thoughts, dreams, concerns. Do this as a meditative exercise, and go as deep as you can. You are responsible for defining the length of the text (certainly no less than a couple of sentences, and no more than 1000 words per day). Do not handwrite it - use a text editor. Uses of ChatGPT or similar text generators are strictly forbidden here.
          
@@ -264,35 +264,35 @@ The session provides a theoretical and conceptual component that focuses on unde
         
         [Stable Diffusion Prompt Book](https://drive.google.com/file/d/1ngSY63m1ASAr4VYA0Ohr0pSZ6bqKbu-w/view?usp=drive_link)
         
-        [PromptHero - Search prompts for Stable Diffusion, ChatGPT & Midjourney](https://prompthero.com/)
+        [PromptHero](https://prompthero.com/)
 
     - **ComfyUI Workflows:**
                 
         - **Text to Image** (basic)
-            ![s2-w1 Text-To-Image(basic).png](images/s2-Text-To-Image(basic).png)
+            ![Text-To-Image (basic)](images/s2-Text-To-Image(basic).png)
             ***
         
         - **Text to Image** (advanced)
             
-            ![s2-w1 Text-To-Image(advanced).png](images/s2-Text-To-Image(advanced).png)
+            ![Text-To-Image (advanced)](images/s2-Text-To-Image(advanced).png)
             ***
         
         - **Image Upscale**
             
-            ![s2-w1 Text-To-Image(upscaling).png](images/s2-Text-To-Image(upscaling).png)
+            ![Text-To-Image (upscaling)](images/s2-Text-To-Image(upscaling).png)
             ***
         
         - **Image to Image**
             
-            ![s2-w1 Image-To-Image.png](images/s2-Image-To-Image.png)
+            ![Image-To-Image](images/s2-Image-To-Image.png)
 
 ---
         
 - **Resources:**
-  - Understanding [Techniques Midjourney AI Styles | Andrei Kovalev's Midlibrary 2.0](https://midlibrary.io/categories/techniques)
+  - Understanding [AI Styles | Andrei Kovalev's Midlibrary 2.0](https://midlibrary.io/categories/techniques)
     
   - Communities/Repositories/Models/Workflows
-    -  Banodoco Discord Invite: [https://discord.com/invite/z2rhAXBktg](https://discord.com/invite/z2rhAXBktg)
+    -  [Banodoco Discord Invite](https://discord.com/invite/z2rhAXBktg)
     - [Civitai: The Home of Open-Source Generative AI](https://civitai.com/)
     - [OpenArt Resources](https://openart.ai/discovery)
     - [Hugging Face](https://huggingface.co/)
@@ -319,19 +319,19 @@ For this session, a series of art references are contextualized and analyzed, pr
     
 - **ComfyUI Workflows:**
     - **LoRA** (with upscale)
-        ![s3 LoRA.png](images/s3-LoRA.png)
+        ![LoRA](images/s3-LoRA.png)
         ***
     - **LCM LoRA**
-        ![s3 LCM LoRA.png](images/s3-LCM_LoRA.png)
+        ![LCM LoRA](images/s3-LCM_LoRA.png)
         ***
     - **ControlNet**
-        ![s3 ControlNet.png](images/s3-ControlNet.png)
+        ![ControlNet](images/s3-ControlNet.png)
         ***
     - **IPAdapter, 2nd Sampler Pass:** 
       - [IPAdapter Info](https://www.youtube.com/watch?v=7m9ZZFU3HWo)
       - [Resources](https://drive.google.com/drive/folders/1fjcthg19CMR0zlVx0B2IqelTVwSzd0yI?usp=sharing)
     
-      ![Workflow-IPAdapter.png](images/s3-IPAdapter.png)
+      ![IPAdapter](images/s3-IPAdapter.png)
 </details>
 
 <details>
@@ -339,24 +339,24 @@ For this session, a series of art references are contextualized and analyzed, pr
 Selected examples of generative AI imagery developed for Assignment 1:
 <table>
   <tr>
-    <td><img src="images/1.png" alt="Image 1" style="width:200px; padding:0px;"/></td>
-    <td><img src="images/2.png" alt="Image 2" style="width:200px; padding:0px;"/></td>
-    <td><img src="images/3.png" alt="Image 3" style="width:200px; padding:0px;"/></td>
+    <td><img src="images/s4-1.png" alt="Image 1" style="width:200px; padding:0px;"/></td>
+    <td><img src="images/s4-2.png" alt="Image 2" style="width:200px; padding:0px;"/></td>
+    <td><img src="images/s4-3.png" alt="Image 3" style="width:200px; padding:0px;"/></td>
   </tr>
   <tr>
-    <td><img src="images/4.png" alt="Image 4" style="width:200px; padding:0px;"/></td>
-    <td><img src="images/5.png" alt="Image 5" style="width:200px; padding:0px;"/></td>
-    <td><img src="images/6.png" alt="Image 6" style="width:200px; padding:0px;"/></td>
+    <td><img src="images/s4-4.png" alt="Image 4" style="width:200px; padding:0px;"/></td>
+    <td><img src="images/s4-5.png" alt="Image 5" style="width:200px; padding:0px;"/></td>
+    <td><img src="images/s4-6.png" alt="Image 6" style="width:200px; padding:0px;"/></td>
   </tr>
   <tr>
-    <td><img src="images/7.png" alt="Image 1" style="width:200px; padding:0px;"/></td>
-    <td><img src="images/8.png" alt="Image 2" style="width:200px; padding:0px;"/></td>
-    <td><img src="images/9.png" alt="Image 3" style="width:200px; padding:0px;"/></td>
+    <td><img src="images/s4-7.png" alt="Image 1" style="width:200px; padding:0px;"/></td>
+    <td><img src="images/s4-8.png" alt="Image 2" style="width:200px; padding:0px;"/></td>
+    <td><img src="images/s4-9.png" alt="Image 3" style="width:200px; padding:0px;"/></td>
   </tr>
   <tr>
-    <td><img src="images/10.png" alt="Image 4" style="width:200px; padding:0px;"/></td>
-    <td><img src="images/11.png" alt="Image 5" style="width:200px; padding:0px;"/></td>
-    <td><img src="images/12.png" alt="Image 6" style="width:200px; padding:0px;"/></td>
+    <td><img src="images/s4-10.png" alt="Image 4" style="width:200px; padding:0px;"/></td>
+    <td><img src="images/s4-11.png" alt="Image 5" style="width:200px; padding:0px;"/></td>
+    <td><img src="images/s4-12.png" alt="Image 6" style="width:200px; padding:0px;"/></td>
   </tr>
 </table>
 </details>
@@ -388,7 +388,7 @@ The session consists of a main lecture that focuses in providing an overall anal
     > Iannis Bardakos, an artist and art theorist with over three decades of experience, has worked globally as an educator and creative media expert. He has taught in Greece, Spain, France, and China, and his work has been exhibited internationally. His interdisciplinary approach blends mathematics, philosophy, and the arts, transcending traditional boundaries. Bardakos's expertise extends to digital media, humanities, and cybernetics, with a deep interest in the philosophy of technology. His research and teaching explore the dynamic interplay between technicity, aesthetics, and processes through a techno-mathematical lens. He holds dual doctoral degrees: one in Aesthetics, Sciences, and Technologies of the Arts from Paris 8 University, and another in the Theory and History of Arts from the Athens School of Fine Arts. Bardakos contributes as a co-editor to the Technoetic Arts Journal and is an active member-at-large in the American Society for Cybernetics. His work, positioned within a post-human framework, aims to redefine and reformulate the relationship between art and experience.
     > 
     
-    ![Iannis Bardakos](images/bardakos.png)    
+    ![Iannis Bardakos](images/s5-bardakos.png)    
 </details>
 
 <details>
@@ -398,33 +398,28 @@ This workshop focuses on developing advanced techniques for creating synthetic v
 
 - **ComfyUI Workflows** 
   - Batch Prompt Scheduler, AnimateDiff (Resources: [CivitAI](https://civitai.com/search/models?modelType=Workflows&sortBy=models_v5), [OpenArtAI](https://openart.ai/workflows/home?workflowSort=featured), [ComfyWorkflows](https://comfyworkflows.com/), [ThinkDiffusion](https://learn.thinkdiffusion.com/a-list-of-the-best-comfyui-workflows/))
-      ![Workshop-VideoAnimation.png](images/s6-VideoAnimation.png)
+      ![Video Animation.png](images/s6-VideoAnimation.png)
       ***
     
   - Image Input, WD14 Tagger, IPAdapter, Motion LoRA
     
-    ![Workflow-Image-To-Video-with-Motion-LoRA.png](images/Workflow-Image-To-Video-with-Motion-LoRA.png)
+    ![Image-To-Video, Motion LoRA](images/s6-Image-To-Video-with-Motion-LoRA.png)
     ***
 
   - SDXL Video
-    ![s6-SDXL_Video.png](images/Workflow-SDXL_Video.png)
+    ![SDXL Video](images/s6-SDXL_Video.png)
     ***
     
   - Image-To-Video, Upscale, Interpolate
-    ![s6-AnimateDiff-Image-Upscale-Interpolate.png](images/s6-AnimateDiff-Image-Upscale-Interpolate.png)
+    ![AnimateDiff, Image, Upscale, Interpolate.png](images/s6-AnimateDiff-Image-Upscale-Interpolate.png)
 
 ***
 
 - **Video Development Resources**
     - Sound & Music
-        - [https://mubert.com/](https://mubert.com/) (music generator)
-            
-            [Mubert Tutorial](https://www.youtube.com/watch?v=Kvf4CCRSvW8)
-            
-        - [https://www.aiva.ai/](https://www.aiva.ai/) (music generator)
-        - [https://elevenlabs.io/](https://elevenlabs.io/) (text to speech)
-            
-            [ElevenLabs Tutorial](https://www.youtube.com/watch?v=KMO306rV94M)
+        - [Mubert](https://mubert.com/) (music generator), [Mubert Tutorial](https://www.youtube.com/watch?v=Kvf4CCRSvW8)
+        - [Aiva](https://www.aiva.ai/) (music generator)
+        - [ElevenLabs](https://elevenlabs.io/) (text to speech), [ElevenLabs Tutorial](https://www.youtube.com/watch?v=KMO306rV94M)
             
     - Video Editing/Composition
         - [https://www.capcut.com/](https://www.capcut.com/) (video editor)
@@ -434,7 +429,7 @@ This workshop focuses on developing advanced techniques for creating synthetic v
 
 - **Post-Production Diagram**
     
-    ![Post-Production.png](images/Post-Production.png)
+    ![Post-Production](images/s6-postProduction.png)
     
     <small>(if the final video size is too large (more than 500MB for 1-minute video), consider compressing it with [HandBrake](https://handbrake.fr/downloads.php), “Vimeo 4K” preset).</small>
 </details>
@@ -452,7 +447,7 @@ The session focuses on providing students tutorial support for the development o
     > Dr Vassilis Galanos is currently a Research and Teaching Fellow at the Edinburgh College of Art, affiliated with the Bridging Responsible Artificial Intelligence Divides (BRAID) UK research programme and the Edinburgh Futures Institute’s Data Civics and The New Real themes. Vassilis investigates AI from a historical and sociological perspective, and has recently participated in projects involving the use of generative AI in journalism, community-led data-driven innovation, and artist/data scientist interactions.
     > 
     
-    ![Vassilis Galanos](images/galanos.png)
+    ![Vassilis Galanos](images/s7-galanos.png)
 </details>    
 
 <details>
@@ -501,7 +496,7 @@ The session provides an introdution to Unity and how generative AI content can b
     - **Learn:** To access Unity documentation and tutorials, click on the **Learn** button.
     - Other options include the Community, UOS, and Developer Services (which are not covered here).
           
-      ![Unity Hub](images/s23-s1_unityHub1.png)
+      ![Unity Hub](images/s9-unityHub.png)
   ---
   **Creating a Project with the Unity Hub**
   To create a new project in Unity, open the Unity Hub and click on the **New Project** button. In the **New Project** window, select the appropriate version for your project from the drop-down menu (i.e. 2022.3.14f LTS). Next, select the **URP** (Universal Rendering Pipeline) or the **HDRP** (High Definition Rendering Pipeline) template from the list of templates.
@@ -512,7 +507,7 @@ The session provides an introdution to Unity and how generative AI content can b
 
   **Unity Editor**
     
-    ![Unity Hub](images/s23-s1_unityEditor1.png)
+    ![Unity Hub](images/s9-unityEditor.png)
       
   The Unity editor is divided into several main areas. The most important ones are the following: the **Scene** view, the **Game** view, the **Hierarchy**, the **Project**, **Inspector**, and **Console**.
     - The **Scene** view is where you can see and edit your 3D objects in your scene. You can navigate and manipulate the camera, as well as select and move objects in the Scene view.
@@ -570,23 +565,23 @@ The session provides an introdution to Unity and how generative AI content can b
     ***
 
     - **Resources on Textures and Patterns**
-      - [Seamless texture check](https://www.pycheung.com/checker/)
+      - [Seamless Texture Checker](https://www.pycheung.com/checker/)
       - [NormalMap-Online](https://cpetry.github.io/NormalMap-Online/)
-      - [Photoshop tutorial : How to create seamless textures](https://www.youtube.com/watch?v=FR3Z0zr1RaY)  
-      - [How to Make High Quality Seamless Textures with AI - Stable Diffusion Tutorial](https://www.youtube.com/watch?v=hNFz0Mlj5Dc)
-      - [Height Maps And Displacement In Unity HDRP](https://medium.com/geekculture/height-and-normal-maps-in-unity-hdrp-324fefb0d188)      
+      - [Photoshop Tutorial: Create Seamless Textures](https://www.youtube.com/watch?v=FR3Z0zr1RaY)  
+      - [How to Make High Quality Seamless Textures with AI](https://www.youtube.com/watch?v=hNFz0Mlj5Dc)
+      - [Height Maps And Displacement In Unity](https://medium.com/geekculture/height-and-normal-maps-in-unity-hdrp-324fefb0d188)
       - [2D Textures & Materials | Assets & Packs | Unity Asset Store](https://assetstore.unity.com/2d/textures-materials)  
-      - [Poly Haven * Poly Haven](https://polyhaven.com/)
+      - [Poly Haven](https://polyhaven.com/)
       - [Free PBR Materials](https://freepbr.com/)
-      - [Textures for 3D, graphic design and Photoshop!](https://www.textures.com/browse/pbr-materials/114558)
+      - [Textures for 3D](https://www.textures.com/browse/pbr-materials/114558)
       - [Poliigon Textures](https://www.poliigon.com/textures/free)
       - [Texture Fun](https://texturefun.com/)
-      - [ambientCG - Public Domain Resources for Physically Based Rendering](https://ambientcg.com/)
-      - [Texturebox - Free and Premium Seamless PBR Textures, Materials, 3D Assets and PBR Materials](https://texturebox.com/category)
-      - [cgbookcase.com | PBR Textures, free for any purpose](https://www.cgbookcase.com/)
-      - [CC0 Textures & Models | Share Textures](https://www.sharetextures.com/)
-      - [Home - Public Domain Textures](https://publicdomaintextures.com/)
-      - [patternpanda | home](https://patternpanda.org/)
+      - [ambientCG](https://ambientcg.com/)
+      - [Texturebox](https://texturebox.com/category)
+      - [cgbookcase](https://www.cgbookcase.com/)
+      - [CC0 Textures & Models](https://www.sharetextures.com/)
+      - [Public Domain Textures](https://publicdomaintextures.com/)
+      - [patternpanda](https://patternpanda.org/)
 
       </details>
 
@@ -614,9 +609,9 @@ The session provides an introdution to Unity and how generative AI content can b
                 
             Unity supports a range of 3D models and objects. We can either using Unity’s primitives, or import them from elsewhere. Importing models can be straightforward - drag and drop in the **Assets** folder suffices. It is strongly suggested to use **.FBX** or **.OBJ** file types, or, if you use **Blender**, you can directly import Blender’s project file in Unity (**.blend**).
                 
-            [Model file formats](https://docs.unity3d.com/Manual/3D-formats.html)
+            [Model File Formats](https://docs.unity3d.com/Manual/3D-formats.html)
                 
-            [How do I import models from my 3D app?](https://docs.unity3d.com/560/Documentation/Manual/HOWTO-importObject.html)
+            [Import 3D Models into Unity](https://docs.unity3d.com/560/Documentation/Manual/HOWTO-importObject.html)
                 
             ![https://soniconlab.com/wp-content/uploads/2023/01/fbx.gif](https://soniconlab.com/wp-content/uploads/2023/01/fbx.gif)
                 
@@ -632,7 +627,7 @@ The session provides an introdution to Unity and how generative AI content can b
         - **Use LumaAI for Generative 3D models**
             [Luma AI - Genie](https://lumalabs.ai/genie?showAuth=true&view=create)
                 
-            ![Screenshot 2024-03-23 at 22.32.37.png](images/Screenshot_2024-03-23_at_22.32.37.png)
+            ![Luma AI](images/s9-luma3d.png)
     </details>
 
 <details>
@@ -886,7 +881,7 @@ The workshop provides a practical framework for utilizing Unity for creating a c
             
   This will result in a grid of 125 instances of the prefab, with each instance being placed 2 units apart from each other.
             
-  ![https://soniconlab.com/wp-content/uploads/2023/02/s23-s5-forLoops3D.png](https://soniconlab.com/wp-content/uploads/2023/02/s23-s5-forLoops3D.png)
+  ![For-Loops 3D](images/s10-forLoops3D.png)
 
   ***
 
@@ -1126,7 +1121,7 @@ The session focuses on defining project's methods and development processes. Thi
 Mapping out a research project is crucial as it provides a clear structure and direction, ensuring systematic progress and thorough exploration of ideas. This organization benefits project development by identifying key milestones and resources, enhances the artistic process by fostering creativity and reflection, and facilitates learning by documenting insights and lessons learned, ultimately leading to more refined and impactful outcomes.
   - [Research Practice and Mindmaps](https://miro.com/app/board/uXjVN4LnVvM=/?share_link_id=514573416693)
   - [Methodological Process Development & Data Collection](https://docs.google.com/spreadsheets/d/1VyWbKi_vM-vmOixw3uStqnQ8pdy5ao0QhYaK7N6tOYc/edit?usp=sharing)
-    ![System Diagram](images/diagram.drawio.png)
+    ![System Diagram](images/s12-diagram.drawio.png)
 
 ***
 
@@ -1168,13 +1163,13 @@ Mapping out a research project is crucial as it provides a clear structure and d
   - Selection of final images can be found on [this link](https://drive.google.com/drive/folders/1kc5ebOf8gBEDTLKyOztycv43RKCtOdub?usp=drive_link).
   
 **Examples:**
-  - The images are taken into ComfyUI (input folder). ![This is the worklflow used](images/s13-exampleWorflow.png).
+  - The images are taken into ComfyUI (input folder). ![This is the worklflow used](images/s12-exampleWorflow.png).
   
   - The workflow uses 4 different image inputs for the visual references (need to ensure that the input folder of **ComfyUI** has ONLY the images that you want to use for your selection). In the workflow, the **Primitive** nodes will randomly pick one image from the input folder every time we hit a new **Queue**. If you need continuous variations, you can set **Auto Queue** inside **Extra Options**.
   
   - Moreover, the workflow uses a random way to compile the final prompt, while includes calls to the **LoRAs**. On every new **Queue**, only one random word inside the curly brackets will be selected {word1 | word 2 | word3}. Here you will see that there are multiple categories organized for main prompt, visual settings, art style references, and so on.
         
-    ![Screenshot 2024-04-25 at 10.26.46.png](images/Screenshot_2024-04-25_at_10.26.46.png)
+    ![Random Prompts](images/s12-randomPrompts.png)
         
   - In this example you can see a large list of **LoRAs** that are used within the **ComfyUI** prompting. To make use of them you need to download the **LoRA** files (**CivitAI**) and add them inside the **ComfyUI** directory **models/loras**.
   
