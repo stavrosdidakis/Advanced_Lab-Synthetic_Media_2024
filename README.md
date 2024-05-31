@@ -269,22 +269,22 @@ The session provides a theoretical and conceptual component that focuses on unde
     - **ComfyUI Workflows:**
                 
         - **Text to Image** (basic)
-            ![s2-w1 Text-To-Image(basic).png](images/s2-w1_Text-To-Image(basic).png)
+            ![s2-w1 Text-To-Image(basic).png](images/s2-Text-To-Image(basic).png)
             ***
         
         - **Text to Image** (advanced)
             
-            ![s2-w1 Text-To-Image(advanced).png](images/s2-w1_Text-To-Image(advanced).png)
+            ![s2-w1 Text-To-Image(advanced).png](images/s2-Text-To-Image(advanced).png)
             ***
         
         - **Image Upscale**
             
-            ![s2-w1 Text-To-Image(upscaling).png](images/s2-w1_Text-To-Image(upscaling).png)
+            ![s2-w1 Text-To-Image(upscaling).png](images/s2-Text-To-Image(upscaling).png)
             ***
         
         - **Image to Image**
             
-            ![s2-w1 Image-To-Image.png](images/s2-w1_Image-To-Image.png)
+            ![s2-w1 Image-To-Image.png](images/s2-Image-To-Image.png)
 
 ---
         
@@ -319,19 +319,19 @@ For this session, a series of art references are contextualized and analyzed, pr
     
 - **ComfyUI Workflows:**
     - **LoRA** (with upscale)
-        ![s3 LoRA.png](images/s3_LoRA.png)
+        ![s3 LoRA.png](images/s3-LoRA.png)
         ***
     - **LCM LoRA**
-        ![s3 LCM LoRA.png](images/s3_LCM_LoRA.png)
+        ![s3 LCM LoRA.png](images/s3-LCM_LoRA.png)
         ***
     - **ControlNet**
-        ![s3 ControlNet.png](images/s3_ControlNet.png)
+        ![s3 ControlNet.png](images/s3-ControlNet.png)
         ***
     - **IPAdapter, 2nd Sampler Pass:** 
       - [IPAdapter Info](https://www.youtube.com/watch?v=7m9ZZFU3HWo)
       - [Resources](https://drive.google.com/drive/folders/1fjcthg19CMR0zlVx0B2IqelTVwSzd0yI?usp=sharing)
     
-      ![Workflow-IPAdapter.png](images/Workflow-IPAdapter.png)
+      ![Workflow-IPAdapter.png](images/s3-IPAdapter.png)
 </details>
 
 <details>
@@ -369,7 +369,7 @@ The session consists of a main lecture that focuses in providing an overall anal
 
 - **ComfyUI Workflow:** Images to Video, LoRAs, IPAdapter, AnimateDiff, Latent Upscale
     
-    ![Workflow-AnimateDiff_.png](images/Workflow-AnimateDiff_.png)
+    ![Workflow-AnimateDiff_.png](images/s5-AnimateDiff.png)
 
 - **References**    
     - [AnimateDiff Repository](https://github.com/guoyww/AnimateDiff),[AnimateDiff Paper](https://animatediff.github.io/)
@@ -398,7 +398,7 @@ This workshop focuses on developing advanced techniques for creating synthetic v
 
 - **ComfyUI Workflows** 
   - Batch Prompt Scheduler, AnimateDiff (Resources: [CivitAI](https://civitai.com/search/models?modelType=Workflows&sortBy=models_v5), [OpenArtAI](https://openart.ai/workflows/home?workflowSort=featured), [ComfyWorkflows](https://comfyworkflows.com/), [ThinkDiffusion](https://learn.thinkdiffusion.com/a-list-of-the-best-comfyui-workflows/))
-      ![Workshop-VideoAnimation.png](images/Workshop-VideoAnimation.png)
+      ![Workshop-VideoAnimation.png](images/s6-VideoAnimation.png)
       ***
     
   - Image Input, WD14 Tagger, IPAdapter, Motion LoRA
@@ -407,11 +407,11 @@ This workshop focuses on developing advanced techniques for creating synthetic v
     ***
 
   - SDXL Video
-    ![Workflow-SDXL Video.png](images/Workflow-SDXL_Video.png)
+    ![s6-SDXL_Video.png](images/Workflow-SDXL_Video.png)
     ***
     
   - Image-To-Video, Upscale, Interpolate
-    ![Workflow-AnimateDiff-Image-Upscale-Interpolate.png](images/Workflow-AnimateDiff-Image-Upscale-Interpolate.png)
+    ![s6-AnimateDiff-Image-Upscale-Interpolate.png](images/s6-AnimateDiff-Image-Upscale-Interpolate.png)
 
 ***
 
@@ -1168,7 +1168,7 @@ Mapping out a research project is crucial as it provides a clear structure and d
   - Selection of final images can be found on [this link](https://drive.google.com/drive/folders/1kc5ebOf8gBEDTLKyOztycv43RKCtOdub?usp=drive_link).
   
 **Examples:**
-  - The images are taken into ComfyUI (input folder). ![This is the worklflow used](images/W13_Example_Workflow.png).
+  - The images are taken into ComfyUI (input folder). ![This is the worklflow used](images/s13-exampleWorflow.png).
   
   - The workflow uses 4 different image inputs for the visual references (need to ensure that the input folder of **ComfyUI** has ONLY the images that you want to use for your selection). In the workflow, the **Primitive** nodes will randomly pick one image from the input folder every time we hit a new **Queue**. If you need continuous variations, you can set **Auto Queue** inside **Extra Options**.
   
