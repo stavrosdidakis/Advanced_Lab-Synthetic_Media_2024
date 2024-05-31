@@ -530,7 +530,7 @@ The session provides an introdution to Unity and how generative AI content can b
     - The **Lighting** window is where you can set up and adjust lighting for your project. You can add and adjust lights, as well as change the environment settings.
     - Additional windows and panels can be found on the main Unity Menu/Windows.
           
-      ![https://soniconlab.com/wp-content/uploads/2023/01/s1-moveTool.gif](https://soniconlab.com/wp-content/uploads/2023/01/s1-moveTool.gif)
+      ![Move Tool](images/s9-moveTool.gif)
       ***
 
   - **Primitives**
@@ -538,7 +538,7 @@ The session provides an introdution to Unity and how generative AI content can b
           
       You can move, rotate and scale the object in the **Scene** view (by using the Unity's **Transform** component), as well as from the number boxes that appear in the **Inspector** panel.
           
-      ![https://soniconlab.com/wp-content/uploads/2023/01/s1-createObject.gif](https://soniconlab.com/wp-content/uploads/2023/01/s1-createObject.gif)
+      ![Create Object](images/s9-createObject.gif)
           
       Each **GameObject** can be configured from the **Inspector** window. Properties such as position, rotation, size are set here. If the GameObject includes materials or additional properties, they can all be accessed from here as well.
           
@@ -591,13 +591,15 @@ The session provides an introdution to Unity and how generative AI content can b
       In this example, we want to utilize a surface of the 3D model to display the contents of a video file. Therefore, a render texture will assist us in creating this effect. To do this we need to complete the following steps:
           
       - Create a **Video Player** object - A **Video Player** can be added to our project by selecting **GameObject / Video / Video Player.** This will add a new video object on the **Hierarchy** panel. From the **Inspector** we have the option to load a video file to the object (the video file has to be already added in our **Assets** folder; **.mp4** file format is strongly suggested).
-          ![https://soniconlab.com/wp-content/uploads/2023/01/videoPlayer.gif](https://soniconlab.com/wp-content/uploads/2023/01/videoPlayer.gif)
+  
+        ![Video Player](images/s9-videoPlayer.gif)
               
       - Create and assign a **Render Texture** - A **Render Texture** is a type of texture that Unity creates and updates at run time. To use a Render Texture you need first to create a new Render Texture asset in the Assets panel. This can be created either by right-clicking in the **Assets** folder, or by selecting in the main menu:  **Assets / Create / Render Texture.** When the texture is created, we can review its **Inspector** and set its size to the value that it is needed (i.e. SD/HD, etc). After this is set, go back to the **Video Player** and set its **Target Texture** option to the new render texture we have just created.
-          ![https://soniconlab.com/wp-content/uploads/2023/01/renderTexture.gif](https://soniconlab.com/wp-content/uploads/2023/01/renderTexture.gif)
+  
+        ![Render Texture](images/s9-renderTexture.gif)
               
       - Create a Geometry & Material - In this instance we want the video to appear on a geometry - a 3D object that contains a special material that allows it to display the video frames. To complete this task, we can create a new 3D **GameObject** (i.e. plane) and position it where it is needed. Finally, we have to create a new material as this will be needed to give to the 3D object its final surface look. Here, we need to assign to the **Base Map** / **Albedo** settings of the color the **Render Texture** that we have just created. To do this, drag the **Render Texture** file from the **Assets** folder, to the little square that appears on the name **Base Map** / **Albedo** inside our new material.
-          ![https://soniconlab.com/wp-content/uploads/2023/01/matRender.gif](https://soniconlab.com/wp-content/uploads/2023/01/matRender.gif)
+          ![Video Texture](images/s9-videoTexture.gif)
 
     - <details><summary><strong>Generative 3D</strong></summary>
 
@@ -613,7 +615,7 @@ The session provides an introdution to Unity and how generative AI content can b
                 
             [Import 3D Models into Unity](https://docs.unity3d.com/560/Documentation/Manual/HOWTO-importObject.html)
                 
-            ![https://soniconlab.com/wp-content/uploads/2023/01/fbx.gif](https://soniconlab.com/wp-content/uploads/2023/01/fbx.gif)
+            ![FBX Import](images/s9-fbxImport.gif)
                 
             3D models can be created with a range of software (e.g., Blender, Maya, Rhino, Fusion360, etc). We can also find models on the public domain:
             [SketchFab](https://sketchfab.com/features/free-3d-models)
@@ -671,7 +673,7 @@ The workshop provides a practical framework for utilizing Unity for creating a c
     4. Write Code: The created script appears both on the **Inspector** window of the **GameObject** that we have attached to it, and also on our **Assets** folder in the **Project** window. Double clicking either the file from the **Project** window, or from the GameObject’s **Inspector**, the script will open on **Visual Studio Code**, where we can edit and save it.
     5. Update the Code and Run: After we edit the code and save it, we need to **Run** the program, during which the code will execute. The GameObject's behavior and properties are going to be updated according to the code we have written.
     
-        ![https://soniconlab.com/wp-content/uploads/2023/02/s23-s3-Scripting-1.gif](https://soniconlab.com/wp-content/uploads/2023/02/s23-s3-Scripting-1.gif)
+        ![Scripting in Unity](images/s9-scripting1.gif)
     
     In the following example, we attach a new script to a **Prefab**. Our objective is to write an instruction that continuously rotates the **GameObject** around its axis. The code for the rotation of the GameObject around its X,Y,Z axis is as follows:
     
