@@ -4,12 +4,12 @@
 **Instructor:** Dr. Stavros Didakis  
 **Email:** `stavros.didakis@nyu.edu`  
 **Course number:** INTM-SHU 306  
-**Course Title:** Synthetic Media
+**Course Title:** Advanced Lab: Synthetic Media
 
 ---
 
 **Course Description:**  
-This course investigates emerging trends in machine learning and artificial intelligence for generating media content - images, video, sound. The course explores the idea of how artists, designers, and creators can use machine learning in their own research, production, and development processes. Students learn and understand machine-learning techniques and use them to generate creative media content. The course covers a range of related platforms and models and also provides the frameworks to experiment with implementing interaction and virtuality within the creative work.
+The course **Advanced Lad: Synthetic Media** investigates emerging trends in machine learning and artificial intelligence for generating media content - images, video, sound. The course explores the idea of how artists, designers, and creators can use machine learning in their own research, production, and development processes. Students learn and understand machine-learning techniques and use them to generate media content (images, videos, sounds, 3D, immersive spaces). The course covers a range of related platforms and models and also provides the frameworks to experiment with implementing interaction and virtuality within the creative work.
 
 ---
 
@@ -290,8 +290,9 @@ The session provides a theoretical and conceptual component that focuses on unde
         
 - **Resources:**
   - Understanding [Techniques Midjourney AI Styles | Andrei Kovalev's Midlibrary 2.0](https://midlibrary.io/categories/techniques)
-        
+    
   - Communities/Repositories/Models/Workflows
+    -  Banodoco Discord Invite: [https://discord.com/invite/z2rhAXBktg](https://discord.com/invite/z2rhAXBktg)
     - [Civitai: The Home of Open-Source Generative AI](https://civitai.com/)
     - [OpenArt Resources](https://openart.ai/discovery)
     - [Hugging Face](https://huggingface.co/)
@@ -403,7 +404,15 @@ This workshop focuses on developing advanced techniques for creating synthetic v
   - Image Input, WD14 Tagger, IPAdapter, Motion LoRA
     
     ![Workflow-Image-To-Video-with-Motion-LoRA.png](images/Workflow-Image-To-Video-with-Motion-LoRA.png)
+    ***
+
+  - SDXL Video
+    ![Workflow-SDXL Video.png](images/Workflow-SDXL_Video.png)
+    ***
     
+  - Image-To-Video, Upscale, Interpolate
+    ![Workflow-AnimateDiff-Image-Upscale-Interpolate.png](images/Workflow-AnimateDiff-Image-Upscale-Interpolate.png)
+
 ***
 
 - **Video Development Resources**
@@ -433,16 +442,10 @@ This workshop focuses on developing advanced techniques for creating synthetic v
 <details>
   <summary><strong>7. Tutorials & Guest Talk</strong></summary>
 
-- **ComfyUI Workflows** 
-  - SDXL Video
-    ![Workflow-SDXL Video.png](images/Workflow-SDXL_Video.png)
-    ***
-    
-  - Image-To-Video, Upscale, Interpolate
-    ![Workflow-AnimateDiff-Image-Upscale-Interpolate.png](images/Workflow-AnimateDiff-Image-Upscale-Interpolate.png)
+The session focuses on providing students tutorial support for the development of their synthetic video (+audio) assignment. Moreover, it offers a critical framework for generative AI as seen from the theory and practice of Vassilis Galanos.
 
-***
-    
+---
+
 - **Guest Talk with Vassilis Galanos:**
     > In this previously unpublished work, the presenter will suggest that the vast majority of contemporary generative artificial intelligence (GenAI) art is kitsch. Dr Galanos will demonstrate aspects of visual AI’s last ten years of development as a sociotechnical construct, a combination of technical programming corresponding to social factors. He will argue that the driving force behind the entropic proliferation of (Gen)AI kitsch is an interplaying function of schizo-capitalist regimes promoting double binds of (a) regulatory frameworks containing AI within hegemonic political correctness and (b) nationalist mandates for AI innovation.
     > 
@@ -474,35 +477,36 @@ This workshop focuses on developing advanced techniques for creating synthetic v
 
 <details>
   <summary><strong>9. Unity & Generative AI (textures, video, 3D)</strong></summary>
+The session provides an introdution to Unity and how generative AI content can be used within a realtime engine. This involves the development and usage of images, videos and sounds within a Unity project. Techniques are explained in regards to the creation of seamless skyboxes, and how to utilize platforms for the creation of synthetic 3D models.
 
 - 📁 [Unity Project Files: Textures_And_Skyboxes](https://drive.google.com/file/d/1BD_aG4xvraYsi2Q3tCpioS7x3nUiK84V/view?usp=drive_link)
 
 - <details>
   <summary><strong>Unity Basics</strong></summary>
-    To start developing a Unity project, you first need to install Unity Hub, and a code editor:
+    To start developing a Unity project, you first need to install Unity Hub, and a code editor (VSCode):
     
     - [Visual Studio Code,](https://code.visualstudio.com/download) [NET (](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)[details)](https://code.visualstudio.com/docs/languages/dotnet), [Mono](https://www.mono-project.com/download/stable/)
     - [Unity Hub](https://store.unity.com/download) and an LTS Unity Editor 21/22 (recommended: 2022.3.14f LTS)
         
-    Following the installation of the required software, you can open **Unity Hub**, a tool that allows us to manage our Unity projects as well as install different versions of Unity Editor.
+    Following the installation of the required software, you can open **Unity Hub**, a tool that allows us to manage our Unity projects as well as install different versions of the **Unity Editor**.
   
     **Unity Hub**
-    When you open Unity Hub for the first time, you will be prompted to log in with your Unity ID. If you don't have one, you can create it for free. In Unity Hub’s Preferences menu, select License, and activate a Personal license (which is free). The personal licenses expire after a few days, but you can install it again with the same process.
+    When you open **Unity Hub** for the first time, you will be prompted to log in with your **Unity ID**. If you don't have one, you can create it for free. In Unity Hub’s **Preferences** menu, select **License**, and activate a Personal license (which is free). The personal licenses expire after a few days, but you can install it again with the same process.
       
-    The Unity Hub will show you a list of all Unity versions installed on your computer (you can have multiple versions of Unity if you want). If you don't have any versions installed, you can click on the "Installs" button to install a new version.
+    The **Unity Hub** shows you a list of all Unity versions installed on your computer (you can have multiple versions of Unity if you want). If you don't have any versions installed, you can click on the **Installs** button to install a new version.
       
     Here are the main tabs that you need to know about Unity Hub:
-    - Projects - To open an existing project or create a new one, click on the "Projects" button and then select the option that you want.
-    - Installs - To manage and install different versions of Unity, click on the "Installs" button. Here you can see all the versions of Unity installed on your computer, and you can also install new versions or delete old ones.
-    - Learn - To access Unity documentation and tutorials, click on the "Learn" button.
-    - Other options include the Community, UOS, and Developer Services (which are not going to be covered).
+    - **Projects:** To open an existing project or create a new one, click on the **Projects** button and then select the option that you want.
+    - **Installs:** To manage and install different versions of Unity, click on the **Installs** button. Here you can see all the versions of Unity installed on your computer, and you can also install new versions or delete old ones.
+    - **Learn:** To access Unity documentation and tutorials, click on the **Learn** button.
+    - Other options include the Community, UOS, and Developer Services (which are not covered here).
           
       ![Unity Hub](images/s23-s1_unityHub1.png)
   ---
   **Creating a Project with the Unity Hub**
-  To create a new project in Unity, open the Unity Hub and click on the "New Project" button. In the "New Project" window, select the appropriate version for your project from the drop-down menu - 2022.3.14f LTS. Next, select the URP (Universal Rendering Pipeline) or the HDRP (High Definition Rendering Pipeline) template from the list of templates.
-  In the right side panel, set the project name and location. You can also choose to create a new folder for your project if you want to. Finally, uncheck the checkbox for "Enable PlasticSCM". This will prevent Unity from using the PlasticSCM version control system for your project.
-  Click on the "Create Project" button to create your new Unity 3D project. Once the project is created, you will be taken to the Unity editor where you can start working on your application.
+  To create a new project in Unity, open the Unity Hub and click on the **New Project** button. In the **New Project** window, select the appropriate version for your project from the drop-down menu (i.e. 2022.3.14f LTS). Next, select the **URP** (Universal Rendering Pipeline) or the **HDRP** (High Definition Rendering Pipeline) template from the list of templates.
+  In the right side panel, set the project name and location. You can also choose to create a new folder for your project if you want to. Finally, uncheck the checkbox for **Enable PlasticSCM**. This will prevent Unity from using the PlasticSCM version control system for your project.
+  Click on the **Create Project** button to create your new Unity 3D project. Once the project is created, you will be taken to the Unity editor where you can start working on your application.
 
   ---
 
@@ -528,26 +532,43 @@ This workshop focuses on developing advanced techniques for creating synthetic v
     - Shortcuts: **Q-W-E-R-T-Y**
       - [Toolbar Link](https://docs.unity3d.com/Manual/Toolbar.html)
       - [Hierarchy Link](https://docs.unity3d.com/Manual/Hierarchy.html)
-    - The Lighting window is where you can set up and adjust lighting for your project. You can add and adjust lights, as well as change the environment settings.
+    - The **Lighting** window is where you can set up and adjust lighting for your project. You can add and adjust lights, as well as change the environment settings.
     - Additional windows and panels can be found on the main Unity Menu/Windows.
           
       ![https://soniconlab.com/wp-content/uploads/2023/01/s1-moveTool.gif](https://soniconlab.com/wp-content/uploads/2023/01/s1-moveTool.gif)
-          
+      ***
+
   - **Primitives**
-      To add 3D objects in the scene go to the **Hierarchy** panel, and either click the **+** sign, or right click on the Hierarchy panel area, to have the sub-menu appear. Select 3D Object, then choose the type of object you want to create, such as a cube, sphere, or plane. The new object will appear in the Hierarchy panel and the Scene view.
+      To add 3D objects in the scene go to the **Hierarchy** panel, and either click the **+** sign, or right click on the **Hierarchy** panel area, to have the sub-menu appear. Select **3D Object**, then choose the type of object you want to create, such as a cube, sphere, or plane. The new object will appear in the **Hierarchy** panel and the **Scene** view.
           
-      You can move, rotate and scale the object in the Scene view (by using the Unity's Transform component), as well as from the number boxes that appear in the Inspector panel.
+      You can move, rotate and scale the object in the **Scene** view (by using the Unity's **Transform** component), as well as from the number boxes that appear in the **Inspector** panel.
           
       ![https://soniconlab.com/wp-content/uploads/2023/01/s1-createObject.gif](https://soniconlab.com/wp-content/uploads/2023/01/s1-createObject.gif)
           
-      Each GameObject can be configured from the **Inspector** window. Properties such as position, rotation, size are set here. If the GameObject includes materials or additional properties, they can all be accessed from here as well.
+      Each **GameObject** can be configured from the **Inspector** window. Properties such as position, rotation, size are set here. If the GameObject includes materials or additional properties, they can all be accessed from here as well.
           
       [Inspector Link](https://docs.unity3d.com/Manual/UsingTheInspector.html)    
     </details>
 
   - <details>
     <summary><strong>Textures & Skyboxes</strong></summary>  
-     
+    
+    To use a custom texture/image in Unity, make sure that your files (such as **PNG** or **JPEG**) are imported in the **Assets** folder. Once imported, select the texture in the Project window to adjust its settings in the **Inspector**, where you can change properties like wrap mode, filter mode, and compression to optimize performance and appearance. Next, create a material by right-clicking in the **Assets** folder, selecting **Create**, and then **Material**. Assign your imported texture to the material by dragging it onto the **Base** / **Albedo** slot in the material's **Inspector**. Finally, apply the material to your objects in the scene by dragging the material onto the desired object in the **Scene** view or **Hierarchy**. 
+    
+    Creating a seamless texture, especially for applications such as skybox, it is important to consider that the edges of the texture align perfectly when tiled. To ensure this, we need to make certain adjustments:
+
+      - **Choose or Create a Base Image**: Start with a high-quality image. For skyboxes, this could be an image of a sky, space, or any environment suitable for your project.
+      - **Make the Image Tileable & Offset the Image**: Use an image editing tool like Adobe Photoshop or GIMP. Offset the image by half of its width and height. In Photoshop, this can be done using the "Offset" filter (Filter > Other > Offset). Set the horizontal and vertical offset to half the dimensions of the image. This will bring the edges to the center, making the seams more visible.
+      - **Blend the Seams**: Use tools like the clone stamp, healing brush, or content-aware fill to blend the seams. Carefully paint over the seams to remove visible lines and ensure a smooth transition. The goal is to make the edges indistinguishable from the rest of the texture.
+    - **Offset Back**: Offset the image back to its original position to ensure that the seamless work is correctly applied.
+    - **Check Seamlessness**: Test the seamlessness by duplicating and tiling the image next to itself in the image editor. Ensure there are no visible seams or abrupt changes where the images meet.
+    - **Create Skybox Textures (Six-Sided Skybox)**: For a skybox, you typically need six images representing the sides of a cube (left, right, top, bottom, front, back). Ensure each texture matches seamlessly at the edges with its adjacent textures.
+    - **Panoramic Skybox**: Alternatively, you can create a 360-degree panoramic image that wraps around seamlessly. Tools like HDRI maps can be used to achieve this.
+    - **Import to Unity**: Import the seamless textures into Unity. If creating a six-sided skybox, use the Skybox (Cubemap) shader. For a panoramic skybox, use the Skybox (Panoramic) shader.
+    - **Set the Skybox**: Finally, apply the skybox material to your scene. Go to **Window** > **Rendering** > **Lighting Settings**, and under the **Skybox Material** section, assign your skybox material.
+
+    ***
+
     - **Resources on Textures and Patterns**
       - [Seamless texture check](https://www.pycheung.com/checker/)
       - [NormalMap-Online](https://cpetry.github.io/NormalMap-Online/)
@@ -574,24 +595,24 @@ This workshop focuses on developing advanced techniques for creating synthetic v
           
       In this example, we want to utilize a surface of the 3D model to display the contents of a video file. Therefore, a render texture will assist us in creating this effect. To do this we need to complete the following steps:
           
-      - Create a Video Player object - A Video Player can be added to our project by selecting **GameObject / Video / Video Player.** This will add a new video object  on the Hierarchy panel. From the Inspector we have the option to load a video file to the object (the video file has to be already added in our Assets folder; .mp4 file format is strongly suggested).
+      - Create a **Video Player** object - A **Video Player** can be added to our project by selecting **GameObject / Video / Video Player.** This will add a new video object on the **Hierarchy** panel. From the **Inspector** we have the option to load a video file to the object (the video file has to be already added in our **Assets** folder; **.mp4** file format is strongly suggested).
           ![https://soniconlab.com/wp-content/uploads/2023/01/videoPlayer.gif](https://soniconlab.com/wp-content/uploads/2023/01/videoPlayer.gif)
               
-      - Create and assign a Render Texture - A Render Texture is a type of texture that Unity creates and updates at run time. To use a Render Texture you need first to create a new Render Texture asset in the Assets panel. This can be created either by right-clicking in the Assets folder, or by selecting in the main menu:  **Assets / Create / Render Texture.** When the texture is created, we can review its Inspector and set its size to the value that it is needed (i.e. SD/HD, etc). After this is set, go back to the Video Player and set its Target Texture option to the new render texture we have just created.
+      - Create and assign a **Render Texture** - A **Render Texture** is a type of texture that Unity creates and updates at run time. To use a Render Texture you need first to create a new Render Texture asset in the Assets panel. This can be created either by right-clicking in the **Assets** folder, or by selecting in the main menu:  **Assets / Create / Render Texture.** When the texture is created, we can review its **Inspector** and set its size to the value that it is needed (i.e. SD/HD, etc). After this is set, go back to the **Video Player** and set its **Target Texture** option to the new render texture we have just created.
           ![https://soniconlab.com/wp-content/uploads/2023/01/renderTexture.gif](https://soniconlab.com/wp-content/uploads/2023/01/renderTexture.gif)
               
-      - Create a Geometry & Material - In this instance we want the video to appear on a geometry - a 3D object that contains a special material that allows it to display the video frames. To complete this task, we can create a new 3D GameObject (i.e. plane) and position it where it is needed. Finally, we have to create a new material as this will be needed to give to the 3D object its final surface look. Here, we need to assign to the Base Map / Albedo settings of the color the Render Texture that we have just created. To do this, drag the Render Texture file from the Assets folder, to the little square that appears on the name Base Map / Albedo inside our new material.
+      - Create a Geometry & Material - In this instance we want the video to appear on a geometry - a 3D object that contains a special material that allows it to display the video frames. To complete this task, we can create a new 3D **GameObject** (i.e. plane) and position it where it is needed. Finally, we have to create a new material as this will be needed to give to the 3D object its final surface look. Here, we need to assign to the **Base Map** / **Albedo** settings of the color the **Render Texture** that we have just created. To do this, drag the **Render Texture** file from the **Assets** folder, to the little square that appears on the name **Base Map** / **Albedo** inside our new material.
           ![https://soniconlab.com/wp-content/uploads/2023/01/matRender.gif](https://soniconlab.com/wp-content/uploads/2023/01/matRender.gif)
 
     - <details><summary><strong>Generative 3D</strong></summary>
 
         - **Importing 3D Models**
             3D models are digital representations of objects or characters that can be used in various applications such as video games, animation, and virtual reality. They are typically composed of a set of polygons, which are used to create the shape of the object, and a set of textures, which are used to control the visual appearance of the object. There are several different file types and properties that are commonly used for 3D models:
-            1. OBJ: The OBJ file format stores the geometry of the model as a set of vertices and faces, and can also store information about materials and textures. OBJ files are widely supported by most 3D modeling software and can be easily imported into many game engines.
-            2. FBX: The FBX file format is a more advanced format for storing 3D models. It supports a wide range of features, including support for animation, lighting, and cameras. FBX files can also store information about materials and textures, and are supported by many 3D modeling software and game engines.
-            3. STL: The STL file format is primarily used for 3D printing and is a standard file format for 3D models. It stores the geometry of the model as a set of triangles, and does not typically include information about materials or textures.
+            1. **OBJ:** The **OBJ** file format stores the geometry of the model as a set of vertices and faces, and can also store information about materials and textures. **OBJ** files are widely supported by most 3D modeling software and can be easily imported into many game engines.
+            2. **FBX:** The **FBX** file format is a more advanced format for storing 3D models. It supports a wide range of features, including support for animation, lighting, and cameras. **FBX** files can also store information about materials and textures, and are supported by many 3D modeling software and game engines.
+            3. **STL:** The **STL** file format is primarily used for 3D printing and is a standard file format for 3D models. It stores the geometry of the model as a set of triangles, and does not typically include information about materials or textures.
                 
-            Unity supports a range of 3D models and objects. We can either using Unity’s primitives, or import them from elsewhere. Importing models can be straightforward - drag and drop in the Assets folder suffices. It is strongly suggested to use .FBX or .OBJ file types, or, if you use Blender, you can directly import Blender’s project file in Unity (.blend).
+            Unity supports a range of 3D models and objects. We can either using Unity’s primitives, or import them from elsewhere. Importing models can be straightforward - drag and drop in the **Assets** folder suffices. It is strongly suggested to use **.FBX** or **.OBJ** file types, or, if you use **Blender**, you can directly import Blender’s project file in Unity (**.blend**).
                 
             [Model file formats](https://docs.unity3d.com/Manual/3D-formats.html)
                 
@@ -606,7 +627,8 @@ This workshop focuses on developing advanced techniques for creating synthetic v
             [Free3D](https://free3d.com/)
             [ThreeD Scans](https://threedscans.com/)
             [3Dassets.one](https://www.3dassets.one/#order=latest)
-                
+             ***
+
         - **Use LumaAI for Generative 3D models**
             [Luma AI - Genie](https://lumalabs.ai/genie?showAuth=true&view=create)
                 
@@ -616,45 +638,47 @@ This workshop focuses on developing advanced techniques for creating synthetic v
 <details>
   <summary><strong>10. Unity & Generative AI (scripting, shaders, VR)</strong></summary>
 
+The workshop provides a practical framework for utilizing Unity for creating a composition using synthetic media content (textures, skyboxes, sounds, 3D models) all within a VR space. In addition, scripting and shaders are covered so that a more dynamic environment can be implemented and used.
+
 - 📁 [Unity Project Files: Scripting_Shaders_VR](https://drive.google.com/file/d/1_TKS-xF17TvwcnFHN2XtgnJMNNowWzQt/view?usp=drive_link)
 
 - <details><summary><strong>Prefabs</strong></summary>
 
-    A prefab (pre-fabricated) GameObject is an object entity that can be customized and then instantiated as many times as desired within the rendered space. A prefab can include any combination of components such as meshes, materials, animations, scripts, and other objects. The advantage of using prefabs is that they allow you to easily **reuse** objects and make global changes to all instances of the prefab by modifying the original asset.
+    A prefab (pre-fabricated) **GameObject** is an object entity that can be customized and then instantiated as many times as desired within the rendered space. A prefab can include any combination of components such as meshes, materials, animations, scripts, and other objects. The advantage of using prefabs is that they allow you to easily **reuse** objects and make global changes to all instances of the prefab by modifying the original asset.
     
     Here is a basic method for creating and using a prefab:
     
-    - Create a new GameObject in the scene or select an existing one.
-    - In the Project window, right-click and select "Create > Prefab". Drag the GameObject from the Hierarchy window to the newly created Prefab asset in the Project window.
-    - You can also drag a GameObject from the Hierarchy window to the Project window (Assets). This will directly create a Prefab for the GameObject.
-    - You can now delete the original GameObject from the Hierarchy view.
-    - To instantiate the prefab in the scene, simply drag it from the Project window into the Hierarchy window.
-    - You can modify the properties of individual instances of the prefab without affecting the original asset. If you want to make a change to all instances, simply modify the original prefab (found in Assets).
-    - Note: Prefab variants allow you to create different variations of a prefab while still linking them to the original. This can be achieved through the settings in Overrides.
+    - Create a new **GameObject** in the scene or select an existing one.
+    - In the **Project** window, right-click and select **Create > Prefab**. Drag the **GameObject** from the **Hierarchy** window to the newly created **Prefab** asset in the **Project** window.
+    - You can also drag a **GameObject** from the **Hierarchy** window to the **Project** window (**Assets**). This will directly create a **Prefab** for the **GameObject**.
+    - You can now delete the original **GameObject** from the **Hierarchy** view.
+    - To instantiate the prefab in the scene, simply drag it from the **Project** window into the **Hierarchy** window.
+    - You can modify the properties of individual instances of the prefab without affecting the original asset. If you want to make a change to all instances, simply modify the original prefab (found in **Assets**).
+    - Note: **Prefab** variants allow you to create different variations of a prefab while still linking them to the original. This can be achieved through the settings in **Overrides**.
     
-    - [NEW PREFAB WORKFLOWS! - Unity Tutorial](https://www.youtube.com/watch?v=6_gAiPPKyUg)
+    - [Prefabs in Unity Tutorial](https://www.youtube.com/watch?v=6_gAiPPKyUg)
     
-    - [How to Create and Use Prefabs in UNITY [2021] Introduction to Prefabs, Basics That You Need to Know](https://www.youtube.com/watch?v=9QkB_rI50Lc)
+    - [An Introduction to Prefabs](https://www.youtube.com/watch?v=9QkB_rI50Lc)
 
 - <details><summary><strong>Scripting with C#</strong></summary>
 
-    Scripting in Unity refers to the process of creating code to control the behavior and functionality of GameObjects in a Unity scene. Unity supports scripting in C#, UnityScript (a variant of JavaScript), and Boo (a language similar to Python).
+    Scripting in Unity refers to the process of creating code to control the behavior and functionality of **GameObjects** in a Unity scene. Unity supports scripting in **C#**, UnityScript (a variant of JavaScript), and Boo (a language similar to Python).
     
-    Scripts in Unity are attached to GameObjects as components and contain code that modifies the GameObject's behavior and properties in response to events in the game. A script can be used to handle user input, control animations, manage physics, and perform many other tasks.
+    Scripts in Unity are attached to **GameObjects** as components and contain code that modifies the GameObject's behavior and properties in response to events in the game. A script can be used to handle user input, control animations, manage physics, and perform many other tasks.
     
     [Creating and Using Scripts](https://docs.unity3d.com/Manual/CreatingAndUsingScripts.html)
     
     To use a script in Unity follow this simple flow:
     
-    1. Create a new script: To create a new script in Unity, you can right-click in the Assets panel and select Create > C# Script or another supported language.
-    2. Attach the script to a GameObject: To attach a script to a GameObject, you can drag the script from the Assets panel onto the GameObject in the Scene or Hierarchy panel. The script will appear as a component in the Inspector panel.
-    3. Steps 1 and 2 can be also done directly from within the Inspector of a GameObject. Click on the GameObject on the Hierarchy panel, and on the Inspector click on Add Component > New Script.
-    4. Write Code: The created script appears both on the Inspector window of the GameObject that we have attached to it, and also on our Assets folder in the Project window. Double clicking either the file from the Project window, or from the GameObject’s Inspector, the script will open on Visual Studio Code, where we can edit and save it.
+    1. Create a new script: To create a new script in Unity, you can right-click in the **Assets** panel and select **Create > C# Script**.
+    2. Attach the script to a **GameObject**: To attach a script to a GameObject, you can drag the script from the **Assets** panel onto the GameObject in the **Scene** or **Hierarchy** panel. The script will appear as a component in the **Inspector** panel.
+    3. Steps 1 and 2 can be also done directly from within the **Inspector** of a GameObject. Click on the **GameObject** on the **Hierarchy** panel, and on the Inspector click on **Add Component > New Script**.
+    4. Write Code: The created script appears both on the **Inspector** window of the **GameObject** that we have attached to it, and also on our **Assets** folder in the **Project** window. Double clicking either the file from the **Project** window, or from the GameObject’s **Inspector**, the script will open on **Visual Studio Code**, where we can edit and save it.
     5. Update the Code and Run: After we edit the code and save it, we need to **Run** the program, during which the code will execute. The GameObject's behavior and properties are going to be updated according to the code we have written.
     
         ![https://soniconlab.com/wp-content/uploads/2023/02/s23-s3-Scripting-1.gif](https://soniconlab.com/wp-content/uploads/2023/02/s23-s3-Scripting-1.gif)
     
-    In the following example, we attach a new script to a Prefab. Our objective is to write an instruction that continuously rotates the GameObject around its axis. The code for the rotation of the GameObject around its X,Y,Z axis is as follows:
+    In the following example, we attach a new script to a **Prefab**. Our objective is to write an instruction that continuously rotates the **GameObject** around its axis. The code for the rotation of the GameObject around its X,Y,Z axis is as follows:
     
     ```csharp
     //Imports
@@ -694,7 +718,7 @@ This workshop focuses on developing advanced techniques for creating synthetic v
     
     ![https://soniconlab.com/wp-content/uploads/2023/02/s23-s3-Scripting-2.gif](https://soniconlab.com/wp-content/uploads/2023/02/s23-s3-Scripting-2.gif)
     
-    Scripts can be attached to Prefabs as well. In the following example, a Prefab has been created that includes multiple cubes nested together. The previous script has been adjusted to generate random rotation speed values for each cube. Therefore, upon the initialization of the code, each cube will be controlled with a different rotational speed. The randomization of the values is done with the use of the **`Random.Range`** function.
+    Scripts can be attached to **Prefabs** as well. In the following example, a **Prefab** has been created that includes multiple cubes nested together. The previous script has been adjusted to generate random rotation speed values for each cube. Therefore, upon the initialization of the code, each cube will be controlled with a different rotational speed. The randomization of the values is done with the use of the **`Random.Range`** function.
     
     ![https://soniconlab.com/wp-content/uploads/2023/02/s23-s3-Scripting-3.gif](https://soniconlab.com/wp-content/uploads/2023/02/s23-s3-Scripting-3.gif)
     
@@ -728,160 +752,162 @@ This workshop focuses on developing advanced techniques for creating synthetic v
     }
     ```
     
-    ---
+    The following links provide  comprehensive details regarding scripting in Unity.  
     
-    The following links provide  comprehensive details regarding scripting in Unity.
-    
-    In the next class, we will focus more comprehensively on coding, and generative art & design.
-    
-    [Scripting](https://docs.unity3d.com/Manual/ScriptingSection.html)
-    
-    [Unity Basics - Introduction to C# Scripting](https://danielilett.com/2021-01-29-basics-1-intro-to-c-sharp/)
-    
-    [Unity Scripting Basics | Video Game Design2021/22 | 3D in 2021!](https://www.youtube.com/watch?v=w-qIcg0G7Pk)
-    
-    [Unity 3D C# scripting cheatsheet for beginners](https://blog.devgenius.io/unity-3d-c-scripting-cheatsheet-for-beginners-be6030b5a9ed)
-    
-    - Iterations (For-Loops)
+    - [Unity Scripting](https://docs.unity3d.com/Manual/ScriptingSection.html)
+    - [Introduction to C# Scripting](https://danielilett.com/2021-01-29-basics-1-intro-to-c-sharp/)
+    - [Scripting Basics](https://www.youtube.com/watch?v=w-qIcg0G7Pk)
+    [C# Scripting Cheatsheet](https://blog.devgenius.io/unity-3d-c-scripting-cheatsheet-for-beginners-be6030b5a9ed)
+
+  ***
+
+  **Iterations (For-Loops)**
         
-        A **`for`** loop is a control structure in programming that allows you to execute a block of code a specified number of times. It is defined with a starting value, a limit, and an increment value (step), and executes the code within the loop until the limit is reached.
+  A **`for`** loop is a control structure in programming that allows you to execute a block of code a specified number of times. It is defined with a starting value, a limit, and an increment value (step), and executes the code within the loop until the limit is reached.
         
-        In Unity, **`for`** loops can be used to perform repetitive tasks, such as initializing an array, updating elements in a list, or creating multiple instances of a GameObject.
+  In Unity, **`for`** loops can be used to perform repetitive tasks, such as initializing an array, updating elements in a list, or creating multiple instances of a **GameObject**.
         
-        Here's an example of how a **`for`** loop can be used to initialize an array in Unity.
+  Here's an example of how a **`for`** loop can be used to initialize an array in Unity.
+
+  ```csharp      
+  using UnityEngine;
+
+  public class forLoops : MonoBehaviour
+  {
+      // Start is called before the first frame update
+      void Start()
+      {
+          int[] numbers = new int[10];
+          for (int i = 0; i < 10; i++)
+          {
+              numbers[i] = i;
+              Debug.Log(numbers[i]);
+          }
+      }
+  }
+  ```
         
-        ```csharp
-        using UnityEngine;
+  In this example, the `for` loop starts with the value of **`i`** being 0, and continues to loop until **`i`** reaches 9 (the limit of 10 - 1). Each time the loop iterates, **`i`** is incremented by 1 (the increment value). The code inside the loop sets the value of the **`numbers`** array at the index **`i`** to **`i`** (0,1,2,….9).
         
-        public class forLoops : MonoBehaviour
-        {
-            // Start is called before the first frame update
-            void Start()
-            {
-                int[] numbers = new int[10];
-                for (int i = 0; i < 10; i++)
-                {
-                    numbers[i] = i;
-                    Debug.Log(numbers[i]);
-                }
-            }
-        }
-        ```
+  More info on for-loops and Unity: [Loops - Unity Learn](https://learn.unity.com/tutorial/loops-z2b#)
         
-        In this example, the **`for`** loop starts with the value of **`i`** being 0, and continues to loop until **`i`** reaches 9 (the limit of 10 - 1). Each time the loop iterates, **`i`** is incremented by 1 (the increment value). The code inside the loop sets the value of the **`numbers`** array at the index **`i`** to **`i`** (0,1,2,….9).
+  **Code Example: 1D For-Loop**
         
-        More info on for-loops and Unity:
-        
-        [Loops - Unity Learn](https://learn.unity.com/tutorial/loops-z2b#)
-        
-        - Code Example: 1D For-Loop
+  The following example demonstrates a**`for`** loop to instantiate multiple instances of a prefab.
+  
+  ```csharp  
+  using UnityEngine;
+
+  public class PrefabInstantiator : MonoBehaviour
+  {
+      public GameObject prefab;
+
+      void Start()
+      {
+          for (int i = 0; i < 10; i++)
+          {
+              Vector3 position = new Vector3(i * 2, 0, 0);
+              Instantiate(prefab, position, Quaternion.identity);
+          }
+      }
+  }
+  ```
+
+  Here, the **`for`** loop starts with the value of **`i`** being 0, and continues the loop until **`i`** reaches 9 (the limit of 10 - 1). Each time the loop iterates, **`i`** is incremented by 1 (the increment value). The code inside the loop calculates a new position based on the value of **`i`** and uses the **`Instantiate`** function to create a new instance of the **`prefab`** at that position. 
+  
+  ***
+
+  **Code Example: 2D For-Loop**
             
-            The following example demonstrates a**`for`** loop to instantiate multiple instances of a prefab.
+  Nested loops in Unity allow you to loop through multiple dimensions and instantiate prefabs in a grid-like or matrix-like pattern. For example, you could use nested loops to create a grid of prefabs, with each prefab representing a cell in the grid. Here's an example of how you can use nested loops to instantiate prefabs in a 5x5 grid pattern:
             
-            ```csharp
-            using UnityEngine;
+  ```csharp
+  using UnityEngine;
+
+  public class PrefabInstantiator : MonoBehaviour
+  {
+      public GameObject prefab;
+
+      void Start()
+      {
+          for (int i = 0; i < 5; i++)
+          {
+              for (int j = 0; j < 5; j++)
+              {
+                  Vector3 position = new Vector3(i * 2, 0, j * 2);
+                  Instantiate(prefab, position, Quaternion.identity);
+              }
+          }
+      }
+  }
+  ```
             
-            public class PrefabInstantiator : MonoBehaviour
-            {
-                public GameObject prefab;
+  In this example, the outer **`for`** loop starts with the value of **`i`** being 0, and continues to loop until **`i`** reaches 4 (the limit of 5 - 1). The inner **`for`** loop starts with the value of **`j`** being 0, and continues to loop until **`j`** reaches 4. Each time the inner loop iterates, **`j`** is incremented by 1. The code inside the inner loop calculates a new position based on the values of **`i`** and **`j`** and uses the **`Instantiate`** function to create a new instance of the **`prefab`** at that position.
             
-                void Start()
-                {
-                    for (int i = 0; i < 10; i++)
-                    {
-                        Vector3 position = new Vector3(i * 2, 0, 0);
-                        Instantiate(prefab, position, Quaternion.identity);
-                    }
-                }
-            }
-            ```
+  ![https://soniconlab.com/wp-content/uploads/2023/02/s23-s5-forLoops2D.png](https://soniconlab.com/wp-content/uploads/2023/02/s23-s5-forLoops2D.png)
             
-            Here, the **`for`** loop starts with the value of **`i`** being 0, and continues the loop until **`i`** reaches 9 (the limit of 10 - 1). Each time the loop iterates, **`i`** is incremented by 1 (the increment value). The code inside the loop calculates a new position based on the value of **`i`** and uses the **`Instantiate`** function to create a new instance of the **`prefab`** at that position. 
+  ***
+
+  **Code Example: 3D For-Loop**
             
-        - Code Example: 2D For-Loop
+  The same logic can be used for creating three-dimensional nested loops (see code below).
             
-            Nested loops in Unity allow you to loop through multiple dimensions and instantiate prefabs in a grid-like or matrix-like pattern. For example, you could use nested loops to create a grid of prefabs, with each prefab representing a cell in the grid. Here's an example of how you can use nested loops to instantiate prefabs in a 5x5 grid pattern:
+  ```csharp
+  using UnityEngine;
+
+  public class forLoopsPrefab3D : MonoBehaviour
+  {
+      public GameObject prefab;
+
+      void Start()
+      {
+          for (int i = 0; i < 5; i++)
+          {
+              for (int j = 0; j < 5; j++)
+              {
+                  for (int k = 0; k < 5; k++)
+                  {
+                      Vector3 position = new Vector3(i * 2, k * 2, j * 2);
+                      Instantiate(prefab, position, Quaternion.identity);
+                  }
+              }
+          }
+      }
+  }
+  ```
             
-            ```csharp
-            using UnityEngine;
+  The code creates an instance of a prefab in a 3D grid pattern. It does this by using three nested for-loops that generate a grid of prefab instances.
             
-            public class PrefabInstantiator : MonoBehaviour
-            {
-                public GameObject prefab;
+  - The first for-loop `(int i = 0; i < 5; i++)` will run 5 times, with the value of `i` incrementing from 0 to 4 each time the loop runs.
+  - The second for-loop `(int j = 0; j < 5; j++)` will also run 5 times, with the value of `j` incrementing from 0 to 4 each time the loop runs.
+  - The third for-loop `(int k = 0; k < 5; k++)` will also run 5 times, with the value of `k` incrementing from 0 to 4 each time the loop runs.
             
-                void Start()
-                {
-                    for (int i = 0; i < 5; i++)
-                    {
-                        for (int j = 0; j < 5; j++)
-                        {
-                            Vector3 position = new Vector3(i * 2, 0, j * 2);
-                            Instantiate(prefab, position, Quaternion.identity);
-                        }
-                    }
-                }
-            }
-            ```
+  At each iteration of these three loops, a new Vector3 position is calculated by multiplying `i`, `j`, and `k` by 2 `(position = new Vector3(i * 2, k * 2, j * 2))`. Then, a new instance of the prefab is created at this calculated position using the `Instantiate()` method `Instantiate(prefab, position, Quaternion.identity)`.
             
-            In this example, the outer **`for`** loop starts with the value of **`i`** being 0, and continues to loop until **`i`** reaches 4 (the limit of 5 - 1). The inner **`for`** loop starts with the value of **`j`** being 0, and continues to loop until **`j`** reaches 4. Each time the inner loop iterates, **`j`** is incremented by 1. The code inside the inner loop calculates a new position based on the values of **`i`** and **`j`** and uses the **`Instantiate`** function to create a new instance of the **`prefab`** at that position.
+  This will result in a grid of 125 instances of the prefab, with each instance being placed 2 units apart from each other.
             
-            ![https://soniconlab.com/wp-content/uploads/2023/02/s23-s5-forLoops2D.png](https://soniconlab.com/wp-content/uploads/2023/02/s23-s5-forLoops2D.png)
+  ![https://soniconlab.com/wp-content/uploads/2023/02/s23-s5-forLoops3D.png](https://soniconlab.com/wp-content/uploads/2023/02/s23-s5-forLoops3D.png)
+
+  ***
+
+  **Code Example: Adding Instances as Children**
             
-        - Code Example: 3D For-Loop
+  One additional modification that you can do to this example is to put all new instances within the main prefab GameObject, so that it is easier to control all instances at once. This can be accomplished very easily, by simply adding a 4th property within the `Instantiate` function, so that it reads as below:
             
-            The same logic can be used for creating three-dimensional nested loops (see code below).
+  `Instantiate(prefab, position, Quaternion.identity, transform)`
             
-            ```csharp
-            using UnityEngine;
+  The `transform` keyword is going to position the newly created prefab within the same GameObject (named Prefab3D-Rotate seen in the following image). Now, if we desire to automate the behavior of this parent (Prefab3D-Rotate), we can add an additional script (rotation.cs) that is going to rotate the parent (and its children, that is, the prefab instances).
             
-            public class forLoopsPrefab3D : MonoBehaviour
-            {
-                public GameObject prefab;
+  ![https://soniconlab.com/wp-content/uploads/2023/02/s23-s5-codingPrefab-example3.gif](https://soniconlab.com/wp-content/uploads/2023/02/s23-s5-codingPrefab-example3.gif)
+
+  ***
+
+  **Code Example: Rotating the Parent**
             
-                void Start()
-                {
-                    for (int i = 0; i < 5; i++)
-                    {
-                        for (int j = 0; j < 5; j++)
-                        {
-                            for (int k = 0; k < 5; k++)
-                            {
-                                Vector3 position = new Vector3(i * 2, k * 2, j * 2);
-                                Instantiate(prefab, position, Quaternion.identity);
-                            }
-                        }
-                    }
-                }
-            }
-            ```
+  Finally, if we add a random rotation script within the original prefab (which exists on the Project window), we will get a much more organic behavior.
             
-            The code creates an instance of a prefab in a 3D grid pattern. It does this by using three nested for-loops that generate a grid of prefab instances.
-            
-            - The first for-loop `(int i = 0; i < 5; i++)` will run 5 times, with the value of `i` incrementing from 0 to 4 each time the loop runs.
-            - The second for-loop `(int j = 0; j < 5; j++)` will also run 5 times, with the value of `j` incrementing from 0 to 4 each time the loop runs.
-            - The third for-loop `(int k = 0; k < 5; k++)` will also run 5 times, with the value of `k` incrementing from 0 to 4 each time the loop runs.
-            
-            At each iteration of these three loops, a new Vector3 position is calculated by multiplying `i`, `j`, and `k` by 2 `(position = new Vector3(i * 2, k * 2, j * 2))`. Then, a new instance of the prefab is created at this calculated position using the `Instantiate()` method `Instantiate(prefab, position, Quaternion.identity)`.
-            
-            This will result in a grid of 125 instances of the prefab, with each instance being placed 2 units apart from each other.
-            
-            ![https://soniconlab.com/wp-content/uploads/2023/02/s23-s5-forLoops3D.png](https://soniconlab.com/wp-content/uploads/2023/02/s23-s5-forLoops3D.png)
-            
-        - Code Example: Adding Instances as Children
-            
-            One additional modification that you can do to this example is to put all new instances within the main prefab GameObject, so that it is easier to control all instances at once. This can be accomplished very easily, by simply adding a 4th property within the `Instantiate` function, so that it reads as below:
-            
-            `Instantiate(prefab, position, Quaternion.identity, transform)`
-            
-            The `transform` keyword is going to position the newly created prefab within the same GameObject (named Prefab3D-Rotate seen in the following image). Now, if we desire to automate the behavior of this parent (Prefab3D-Rotate), we can add an additional script (rotation.cs) that is going to rotate the parent (and its children, that is, the prefab instances).
-            
-            ![https://soniconlab.com/wp-content/uploads/2023/02/s23-s5-codingPrefab-example3.gif](https://soniconlab.com/wp-content/uploads/2023/02/s23-s5-codingPrefab-example3.gif)
-            
-        - Code Example: Rotating the Parent
-            
-            Finally, if we add a random rotation script within the original prefab (which exists on the Project window), we will get a much more organic behavior.
-            
-            ![https://soniconlab.com/wp-content/uploads/2023/02/s23-s5-codingPrefab-example4.gif](https://soniconlab.com/wp-content/uploads/2023/02/s23-s5-codingPrefab-example4.gif)
+  ![https://soniconlab.com/wp-content/uploads/2023/02/s23-s5-codingPrefab-example4.gif](https://soniconlab.com/wp-content/uploads/2023/02/s23-s5-codingPrefab-example4.gif)
+
 
 - <details><summary><strong>Shaders</strong></summary>
 
@@ -900,150 +926,160 @@ This workshop focuses on developing advanced techniques for creating synthetic v
         ![https://portamedia.studio/wp-content/uploads/2020/10/shader_distortion_example.gif](https://portamedia.studio/wp-content/uploads/2020/10/shader_distortion_example.gif)
     
         ![https://static.wixstatic.com/media/b03158_1804f5256ed948c69fc6095f420ae879~mv2.gif](https://static.wixstatic.com/media/b03158_1804f5256ed948c69fc6095f420ae879~mv2.gif)
-    
-    - Optional: ShaderGraph
-        - Shader Graph Intro
+
+  ***
+
+  **Shader Graph Intro**
             
-            Shader Graph is a visual interface for creating shaders in Unity. It allows users to create custom shaders without having to write any code, by using a node-based system that is accessed directly within the Unity Editor. Shader Graph includes a variety of node types, including mathematical operations, texture sampling, color blending, and many more. The nodes can be connected and combined to create complex shaders, from simple surface shaders to complex materials that include reflections, refractions, and other advanced effects.
+  **Shader Graph** is a visual interface for creating shaders in Unity. It allows users to create custom shaders without having to write any code, by using a node-based system that is accessed directly within the Unity Editor. **Shader Graph** includes a variety of node types, including mathematical operations, texture sampling, color blending, and many more. The nodes can be connected and combined to create complex shaders, from simple surface shaders to complex materials that include reflections, refractions, and other advanced effects.
             
-            A few characteristics of Shader Graph are the following:
+  A few characteristics of **Shader Graph** are the following:
+          
+  - **Node-Based Interface:** The Shader Graph uses a node-based interface, which allows for an intuitive and straightforward creation of shaders without the need for manual shader coding.
+  - **Real-Time Preview:** The Shader Graph provides a real-time preview of the shader being created, which allows for immediate feedback on how changes to the graph affect the final result.
+  - **Customization:** Shaders created with the Shader Graph can be easily customized to fit the specific requirements of the project.
+  - **Lighting Support: **The Shader Graph supports various lighting models, including PBR and Unlit, and includes multiple nodes for configuring and controlling lighting.
+  - **Compatibility with Other Unity Features:** The Shader Graph can be used in conjunction with other Unity features, such as Particle Systems, VFX Graph, and the Unity Material Editor.
+  - **Extensibility:** The Shader Graph is fully extensible, meaning that users can create custom nodes and use them within their shader graph to perform specialized tasks.
+
+  ***
+
+  **Creating a Shader Graph**
             
-            - Node-Based Interface: The Shader Graph uses a node-based interface, which allows for an intuitive and straightforward creation of shaders without the need for manual shader coding.
-            - Real-Time Preview: The Shader Graph provides a real-time preview of the shader being created, which allows for immediate feedback on how changes to the graph affect the final result.
-            - Customization: Shaders created with the Shader Graph can be easily customized to fit the specific requirements of the project.
-            - Lighting Support: The Shader Graph supports various lighting models, including PBR and Unlit, and includes multiple nodes for configuring and controlling lighting.
-            - Compatibility with Other Unity Features: The Shader Graph can be used in conjunction with other Unity features, such as Particle Systems, VFX Graph, and the Unity Material Editor.
-            - Extensibility: The Shader Graph is fully extensible, meaning that users can create custom nodes and use them within their shader graph to perform specialized tasks.
+  The **Shader Graph** is a standard package included within **URP/HDRP**. If your project has been set in these pipelines, then you can directly create a new Shader Graph in the **Project** window by selecting **Create > Shader Graph > HDRP > Lit Shader Graph** (for example). This will create a new asset in the **Project** window. By double-clicking the newly created file, the **Shader Graph UI** opens.
             
-        - Creating a Shader Graph
+  **Shader Graph**’s interface consists of several key elements, including:
             
-            The Shader Graph is a standard package included within the HDRP. If your project has been set as HDRP, then you can directly create a new Shader Graph in the Project window by selecting Create > Shader Graph > HDRP > Lit Shader Graph. This will create a new asset in the Project window. By double-clicking the newly created file, the Shader Graph UI opens.
-            
-            Shader Graph’s interface consists of several key elements, including:
-            
-            1. Graph View: This is the main view of the Shader Graph Editor, where you can create and arrange nodes to build your shader.
-            2. Graph Inspector: The Graph Inspector provides options and properties used to modify the behavior and appearance of the Shader Graph and its nodes.
-                1. The Node Settings are specific to a single node within the graph and control its behavior and properties. 
-                2. The Graph Settings provide global options and settings for the entire shader graph. It contains options such as shader quality settings, the graph name, and the active channel mask. Here we can set if we want the shader to be Lit or Unlit, for example.
-            3. Main Preview: The Main Preview window offers a visual representation of how the final shader graph will look when applied to a material.
-            4. Blackboard: This is an area where you can add custom values that can be used by nodes in the Shader Graph. The values set in the blackboard can be accessed by the Inspector of the Shader Graph material
+  - **Graph View:** This is the main view of the Shader Graph **Editor**, where you can create and arrange nodes to build your shader.
+  - **Graph Inspector:** The Graph Inspector provides options and properties used to modify the behavior and appearance of the Shader Graph and its nodes.
+  - The **Node Settings** are specific to a single node within the graph and control its behavior and properties. 
+  - The **Graph Settings** provide global options and settings for the entire shader graph. It contains options such as shader quality settings, the graph name, and the active channel mask. Here we can set if we want the shader to be **Lit** or **Unlit**, for example.
+  - **Main Preview:** The Main Preview window offers a visual representation of how the final shader graph will look when applied to a material.
+  - **Blackboard:** This is an area where you can add custom values that can be used by nodes in the Shader Graph. The values set in the blackboard can be accessed by the **Inspector** of the **Shader Graph** material
                 
-                ![https://blog.logrocket.com/wp-content/uploads/2022/09/drag-select-items.gif](https://blog.logrocket.com/wp-content/uploads/2022/09/drag-select-items.gif)
+    ![https://blog.logrocket.com/wp-content/uploads/2022/09/drag-select-items.gif](https://blog.logrocket.com/wp-content/uploads/2022/09/drag-select-items.gif)
+
+  ***
+
+  **The Master Stack**
+            
+  The Shader Graph offers two main blocks: the **Vertex** and **Fragment**, also called as **Master Stack**.
+            
+  - The **Vertex Block** is used to modify or manipulate the **vertices** of a 3D model before they are drawn on the screen. The **Vertex Block** allows you to make changes to the properties of the vertices and it includes the following basic properties (in **HDRP/Lit** mode):
+    - **Position** - This is the main property of a **Vertex Block**, which allows you to modify the position of each vertex.
+    - **Normal** - This property allows you to modify the normal vector of each vertex, which is used for lighting calculations.
+    - **Tangent** - This property allows you to modify the tangent vector of each vertex, which is used for normal mapping or other special effects.
                 
-        - The Master Stack
-            
-            The Shader Graph offers two main blocks: the Vertex and Fragment, also called as Master Stack.
-            
-            [Built In Blocks](https://docs.unity3d.com/Packages/com.unity.shadergraph@10.3/manual/Built-In-Blocks.html)
-            
-            [What's new in Unity's Shader Graph?](https://www.youtube.com/watch?v=-QcwEYOHt2I)
-            
-            - The Vertex Block is used to modify or manipulate the vertices of a 3D model before they are drawn on the screen. The Vertex Block allows you to make changes to the properties of the vertices and it includes the following basic properties (in HDRP/Lit mode):
-                - Position - This is the main property of a Vertex Block, which allows you to modify the position of each vertex.
-                - Normal - This property allows you to modify the normal vector of each vertex, which is used for lighting calculations.
-                - Tangent - This property allows you to modify the tangent vector of each vertex, which is used for normal mapping or other special effects.
-                
-                ![https://thirdspacelearning.com/wp-content/uploads/2022/03/Faces-edges-and-vertices-what-is-2.png](https://thirdspacelearning.com/wp-content/uploads/2022/03/Faces-edges-and-vertices-what-is-2.png)
-                
-            
-            - A Fragment Block is a type of shader block that is used to create and modify the appearance of a material's pixels. The properties of a Fragment block in the HDRP/Lit mode include:
-                - Base Color: This property sets the base color of the material, which is the color that is seen before any other effects are applied.
-                - Normal Tangent Space: This property sets the normal map, which is a texture that defines the surface normals of a material. This can be used to add additional detail and surface roughness to the material.
-                - Bent Normal: This property sets the bent normal map, which is a texture that can be used to simulate global illumination and subsurface scattering effects.
-                - Metallic: This property sets the metallic value of the material, which determines how reflective the material is.
-                - Emission: This property sets the emissive color of the material, which can be used to create materials that emit light.
-                - Smoothness: This property sets the smoothness value of the material, which determines how smooth or rough the surface is.
-                - Ambient Occlusion: This property sets the ambient occlusion map, which is a texture that defines the amount of ambient light that should be occluded in the shadows of the material.
-                - Alpha: This property sets the transparency of the material, which determines how see-through the material is.
+      ![https://thirdspacelearning.com/wp-content/uploads/2022/03/Faces-edges-and-vertices-what-is-2.png](https://thirdspacelearning.com/wp-content/uploads/2022/03/Faces-edges-and-vertices-what-is-2.png)
                     
-                    ![https://unsoundscapes.com/slides/2017-06-08-bringing-the-fun-to-graphics-programming/assets/schema.png](https://unsoundscapes.com/slides/2017-06-08-bringing-the-fun-to-graphics-programming/assets/schema.png)
+  - A **Fragment Block** is a type of shader block that is used to create and modify the appearance of a material's pixels. The properties of a Fragment block in the **HDRP/Lit** mode include:
+    - **Base Color:** This property sets the base color of the material, which is the color that is seen before any other effects are applied.
+    - **Normal Tangent Space:** This property sets the normal map, which is a texture that defines the surface normals of a material. This can be used to add additional detail and surface roughness to the material.
+    - **Bent Normal:** This property sets the bent normal map, which is a texture that can be used to simulate global illumination and subsurface scattering effects.
+    - **Metallic:** This property sets the metallic value of the material, which determines how reflective the material is.
+    - **Emission:** This property sets the emissive color of the material, which can be used to create materials that emit light.
+    - **Smoothness:** This property sets the smoothness value of the material, which determines how smooth or rough the surface is.
+    - **Ambient Occlusion:** This property sets the ambient occlusion map, which is a texture that defines the amount of ambient light that should be occluded in the shadows of the material.
+    - **Alpha:** This property sets the transparency of the material, which determines how see-through the material is.
                     
-        - Vertex Displacement
+      ![https://unsoundscapes.com/slides/2017-06-08-bringing-the-fun-to-graphics-programming/assets/schema.png](https://unsoundscapes.com/slides/2017-06-08-bringing-the-fun-to-graphics-programming/assets/schema.png)
+
+  ***                  
+  
+  **Vertex Displacement**
             
-            Vertex displacement is a technique where the vertices of an object are moved or displaced along a certain direction in real time based on certain inputs such as noise functions, height maps, or animation curves. The displacement is calculated in the vertex shader and then used to move the vertices before the fragment shader calculates the final pixel colors.
+  **Vertex displacement** is a technique where the vertices of an object are moved or displaced along a certain direction in real time based on certain inputs such as noise functions, height maps, or animation curves. The displacement is calculated in the vertex shader and then used to move the vertices before the fragment shader calculates the final pixel colors.
             
-            To accomplish the design of a shader, we need to use the nodes and blocks of Shader Graph. To add a new node, mouse-click (or Option click) within the Graph View, select Create Node, and add new nodes according to the requirements of the shader.
+  To accomplish the design of a shader, we need to use the nodes and blocks of **Shader Graph**. To add a new node, mouse-click (or **Option** click) within the **Graph View**, select **Create Node**, and add new nodes according to the requirements of the shader.
             
-            ![https://gamefromscratch.com/wp-content/uploads/2020/07/pictureCreatingATextureNode_thumb.gif](https://gamefromscratch.com/wp-content/uploads/2020/07/pictureCreatingATextureNode_thumb.gif)
+    ![https://gamefromscratch.com/wp-content/uploads/2020/07/pictureCreatingATextureNode_thumb.gif](https://gamefromscratch.com/wp-content/uploads/2020/07/pictureCreatingATextureNode_thumb.gif)
             
-            The following image shows a simple graph that can be used to access the vertex properties of a model, and reposition the object to a new location within the scene. The shader includes a Position node, a Normal Vector, a Multiply, an Add and a Float node.
+  The image shows a simple graph that can be used to access the vertex properties of a model, and reposition the object to a new location within the scene. The shader includes a **Position** node, a **Normal Vector**, a **Multiply**, an **Add** and a **Float** node.
             
-            - The **`Position`** node represents the position of each individual vertex in 3D space. It allows you to control how the mesh deforms, stretches, and twists.
-            - The **`Normal Vector`** node is used to represent the normal direction for each vertex of a mesh. The normal vector points away from the surface and is perpendicular to it. It is used to control how light behaves on the surface, which affects the appearance of shading, highlights, and reflections.
-            - The **`Multiply`** node multiplies two values together. It is commonly used in combination with other nodes to control the strength of an effect or to create masks.
-            - The **`Add`** node adds two values together. It can be used to combine different values and create new ones.
-            - The **`Float`** node allows you to input a floating-point value into the shader. This node can be used to control various properties of the shader such as the amount of a specific effect, the color of a material, the brightness, etc.
+  - The **`Position`** node represents the position of each individual vertex in 3D space. It allows you to control how the mesh deforms, stretches, and twists.
+  - The **`Normal Vector`** node is used to represent the normal direction for each vertex of a mesh. The normal vector points away from the surface and is perpendicular to it. It is used to control how light behaves on the surface, which affects the appearance of shading, highlights, and reflections.
+  - The **`Multiply`** node multiplies two values together. It is commonly used in combination with other nodes to control the strength of an effect or to create masks.
+  - The **`Add`** node adds two values together. It can be used to combine different values and create new ones.
+  - The **`Float`** node allows you to input a floating-point value into the shader. This node can be used to control various properties of the shader such as the amount of a specific effect, the color of a material, the brightness, etc.
             
-            To test out the graph, we need to Save Asset (from the top left menu of the Shader Graph window), and use this newly created shader as a material that is added onto a geometry GameObject (or an imported Mesh).
+  To test out the graph, we need to **Save Asset** (from the top left menu of the **Shader Graph** window), and use this newly created shader as a material that is added onto a geometry **GameObject** (or an imported Mesh).
             
-            ![https://danielilett.com/img/every-node/1-position-block.png](https://danielilett.com/img/every-node/1-position-block.png)
+    ![https://danielilett.com/img/every-node/1-position-block.png](https://danielilett.com/img/every-node/1-position-block.png)
             
-            ![https://soniconlab.com/wp-content/uploads/2023/02/S23-S6-Shaders1.gif](https://soniconlab.com/wp-content/uploads/2023/02/S23-S6-Shaders1.gif)
+    ![https://soniconlab.com/wp-content/uploads/2023/02/S23-S6-Shaders1.gif](https://soniconlab.com/wp-content/uploads/2023/02/S23-S6-Shaders1.gif)
             
-            ---
+    ---
             
-            The following image (and tutorial) shows how to create a more advanced vertex displacement shader. The graph contains many nodes as the previous example, but it also includes a Time and Voronoi nodes.
+    The following image (and tutorial) shows how to create a more advanced vertex displacement shader. The graph contains many nodes as the previous example, but it also includes a Time and Voronoi nodes.
             
-            - The **`Time`** node represents the time in seconds that has passed since the scene was loaded. It can be used to animate materials and create effects over time, such as waves, oscillations, and pulsations.
-            - The **`Voronoi`** node creates a Voronoi pattern based on a set of input points. It is commonly used to create effects such as noise, patterns, and textures. The Voronoi pattern is generated by dividing the surface into cells based on the distance to the closest input point. Each cell can then be colored differently to create the final effect.
+    - The **`Time`** node represents the time in seconds that has passed since the scene was loaded. It can be used to animate materials and create effects over time, such as waves, oscillations, and pulsations.
+    - The **`Voronoi`** node creates a Voronoi pattern based on a set of input points. It is commonly used to create effects such as noise, patterns, and textures. The Voronoi pattern is generated by dividing the surface into cells based on the distance to the closest input point. Each cell can then be colored differently to create the final effect.
             
-            ![https://soniconlab.com/wp-content/uploads/2023/02/Screen-Shot-2023-02-09-at-11.51.41-AM.png](https://soniconlab.com/wp-content/uploads/2023/02/Screen-Shot-2023-02-09-at-11.51.41-AM.png)
+      ![https://soniconlab.com/wp-content/uploads/2023/02/Screen-Shot-2023-02-09-at-11.51.41-AM.png](https://soniconlab.com/wp-content/uploads/2023/02/Screen-Shot-2023-02-09-at-11.51.41-AM.png)
             
-            The values of the shaders that we design in Shader Graph can be accessed from the Inspector of the material (the material that was created directly from the shader). In order to achieve this, we need to expose these values on the Blackboard window. Here, you can create new variables, set their types, and assign values to them. Once a variable is created in the Blackboard, it can be used by other nodes in the graph.
+    The values of the shaders that we design in **Shader Graph** can be accessed from the **Inspector** of the material (the material that was created directly from the shader). In order to achieve this, we need to expose these values on the **Blackboard** window. Here, you can create new variables, set their types, and assign values to them. Once a variable is created in the **Blackboard**, it can be used by other nodes in the graph.
             
-            For example, you can create a float variable in the Blackboard and use it to control the intensity of a light in the scene. By referencing the variable in the relevant nodes, you can change the value of the light intensity at runtime and have it affect multiple nodes in the graph, all with a single change.
+    For example, you can create a float variable in the **Blackboard** and use it to control the intensity of a light in the scene. By referencing the variable in the relevant nodes, you can change the value of the light intensity at runtime and have it affect multiple nodes in the graph, all with a single change.
             
-            Exposed Properties are variables that are made available to the Inspector and can be adjusted at runtime.
+    **Exposed Properties** are variables that are made available to the **Inspector** and can be adjusted at runtime.
             
-            ![https://soniconlab.com/wp-content/uploads/2023/02/S23-S6-Shaders2.gif](https://soniconlab.com/wp-content/uploads/2023/02/S23-S6-Shaders2.gif)
+    ![https://soniconlab.com/wp-content/uploads/2023/02/S23-S6-Shaders2.gif](https://soniconlab.com/wp-content/uploads/2023/02/S23-S6-Shaders2.gif)
             
-            ![https://soniconlab.com/wp-content/uploads/2023/02/S23-S6-Shaders3.gif](https://soniconlab.com/wp-content/uploads/2023/02/S23-S6-Shaders3.gif)
+    ![https://soniconlab.com/wp-content/uploads/2023/02/S23-S6-Shaders3.gif](https://soniconlab.com/wp-content/uploads/2023/02/S23-S6-Shaders3.gif)
             
-            [Shader Graph: Vertex Displacement - Unity Learn](https://learn.unity.com/tutorial/shader-graph-vertex-displacement#)
+    [Shader Graph: Vertex Displacement - Unity Learn](https://learn.unity.com/tutorial/shader-graph-vertex-displacement#)
             
-            [Blackboard](https://docs.unity3d.com/Packages/com.unity.shadergraph@14.0/manual/Blackboard.html)
+    [Blackboard](https://docs.unity3d.com/Packages/com.unity.shadergraph@14.0/manual/Blackboard.html)
+
+  ***
+
+  **Fragment Shaders**
             
-        - Fragment Shaders
+  The following example makes use of the **Shader Graph** to create a glowing ball. Here, we will make use of **Fragment Block**’s **Emission** property. The nodes that we are using are the following:
             
-            The following example makes use of the Shader Graph to create a glowing ball. Here, we will make use of Fragment Block’s Emission property. The nodes that we are using are the following:
+  - The `Fresnel Effect` is a shader that simulates the way light interacts with the surface of an object. It is the difference in the amount of reflection based on the angle of the light source. In **Shader Graph**, you can use the **Fresnel** node which calculates the reflection based on the angle between the surface normal and the camera. This can be used to give the appearance of a glossy or reflective surface.
+  - The `Power` node allows you to raise a value to a specified power. This is useful for controlling the intensity or distribution of a value across the surface of an object. For example, you can use a **Power** node to control the strength of a **Fresnel** effect by raising the value from the Fresnel node to a specified power. This can be used to make the Fresnel effect more or less intense.
             
-            - The `Fresnel Effect` is a shader that simulates the way light interacts with the surface of an object. It is the difference in the amount of reflection based on the angle of the light source. In Shader Graph, you can use the Fresnel node which calculates the reflection based on the angle between the surface normal and the camera. This can be used to give the appearance of a glossy or reflective surface.
-            - The `Power` node allows you to raise a value to a specified power. This is useful for controlling the intensity or distribution of a value across the surface of an object. For example, you can use a Power node to control the strength of a Fresnel effect by raising the value from the Fresnel node to a specified power. This can be used to make the Fresnel effect more or less intense.
+  In this example, the **Fresnel Effect** is multiplied by the input color (exposed property, found on the **Inspector** of the material). Following that, this value is multiplied with the **Power** node; a higher value here indicates a stronger effect. Finally, the result of the calculation is sent to the **Emission** property of the **Fragment Block**.
             
-            In this example, the Fresnel Effect is multiplied by the input color (exposed property, found on the Inspector of the material). Following that, this value is multiplied with the Power node; a higher value here indicates a stronger effect. Finally, the result of the calculation is sent to the Emission property of the Fragment Block.
+  ![https://soniconlab.com/wp-content/uploads/2023/02/Screen-Shot-2023-02-09-at-4.17.07-PM.png](https://soniconlab.com/wp-content/uploads/2023/02/Screen-Shot-2023-02-09-at-4.17.07-PM.png)
             
-            ![https://soniconlab.com/wp-content/uploads/2023/02/Screen-Shot-2023-02-09-at-4.17.07-PM.png](https://soniconlab.com/wp-content/uploads/2023/02/Screen-Shot-2023-02-09-at-4.17.07-PM.png)
+  ---
             
-            ---
+  Extending the previous example, we can incorporate an image to the **Base Color** of the shader so that we create a more detailed texture. The new nodes used in this example are:
             
-            Extending the previous example, we can incorporate an image to the Base Color of the shader so that we create a more detailed texture. The new nodes used in this example are:
+  - A `Texture 2D Asset` is a 2D image that can be used as a material property in the **Shader Graph**. It can be used to control the look of the surface of a 3D object by providing additional detail and variation. The **Texture 2D Asset** node allows you to access a specific texture asset from your project's **Assets** folder and pass it to other nodes for use in the shader.
+  - The `Sample Texture 2D` node in Shader Graph in Unity is used to sample a texture and get its color information to use as input in a shader. It allows you to use a texture to influence the appearance of your materials. The node can be found in the **Texture** category of the Node Library in the **Shader Graph Editor**. The`Sample Texture 2D` node takes in a **Texture 2D** input and **UV** input, which is used to determine the sampling position in the texture. The **UV** input is typically generated by other nodes that create **UV** coordinates. The UV coordinates are used to map the texture onto the surface of the object being rendered.
+  - The `Tiling and Offset` property defines how a texture is repeated and positioned on an object's surface. The **Tiling** property sets the number of times the texture should repeat in both the X and Y directions, and the **Offset** property allows you to shift the texture's position in both the X and Y directions.
+  - `Vector2` is a data type in Shader Graph that represents a **2D** vector. It is used to store 2D positions, distances, and sizes. In the context of texturing, it is often used to store the tiling and offset values, allowing you to adjust the position and scale of a texture.
             
-            - A `Texture 2D Asset` is a 2D image that can be used as a material property in the Shader Graph. It can be used to control the look of the surface of a 3D object by providing additional detail and variation. The Texture 2D Asset node allows you to access a specific texture asset from your project's Assets folder and pass it to other nodes for use in the shader.
-            - The `Sample Texture 2D` node in Shader Graph in Unity is used to sample a texture and get its color information to use as input in a shader. It allows you to use a texture to influence the appearance of your materials. The node can be found in the Texture category of the Node Library in the Shader Graph Editor. The`Sample Texture 2D` node takes in a Texture 2D input and UV input, which is used to determine the sampling position in the texture. The UV input is typically generated by other nodes that create UV coordinates. The UV coordinates are used to map the texture onto the surface of the object being rendered.
-            - The `Tiling and Offset` property defines how a texture is repeated and positioned on an object's surface. The Tiling property sets the number of times the texture should repeat in both the X and Y directions, and the Offset property allows you to shift the texture's position in both the X and Y directions.
-            - `Vector2` is a data type in Shader Graph that represents a 2D vector. It is used to store 2D positions, distances, and sizes. In the context of texturing, it is often used to store the tiling and offset values, allowing you to adjust the position and scale of a texture.
+  The example below allows us to import an image and use it as a texture for the **Base Color**. The **UV** of the sample texture is adjusted by the **Tiling** and **Offset** node. In the **Offset** input, we receive a **Vector2** value that consists of a continuously changed number for the X (Y remains at 0). In this instance, we utilize the **Time** node to push new numerical values to the system, which is then used for a continuous offsetting of the image on the texture plane.
             
-            The example below allows us to import an image and use it as a texture for the Base Color. The UV of the sample texture is adjusted by the Tiling and Offset node. In the Offset input, we receive a Vector2 value that consists of a continuously changed number for the X (Y remains at 0). In this instance, we utilize the Time node to push new numerical values to the system, which is then used for a continuous offsetting of the image on the texture plane.
+  ![https://soniconlab.com/wp-content/uploads/2023/02/Screen-Shot-2023-02-09-at-5.21.32-PM.png](https://soniconlab.com/wp-content/uploads/2023/02/Screen-Shot-2023-02-09-at-5.21.32-PM.png)
+
+  ***
+
+  **Resources**
+                     
+  - [Built In Blocks](https://docs.unity3d.com/Packages/com.unity.shadergraph@10.3/manual/Built-In-Blocks.html)
             
-            ![https://soniconlab.com/wp-content/uploads/2023/02/Screen-Shot-2023-02-09-at-5.21.32-PM.png](https://soniconlab.com/wp-content/uploads/2023/02/Screen-Shot-2023-02-09-at-5.21.32-PM.png)
+  - [What's new in Unity's Shader Graph?](https://www.youtube.com/watch?v=-QcwEYOHt2I)
+
+  - [Basics of Shader Graph - Unity Tutorial](https://www.youtube.com/watch?v=Ar9eIn4z6XE)
             
-    - Resources
+  - [How to Make Your First Shader Graph | Unity Basics](https://www.youtube.com/watch?v=u9pbpypdq0Q)
             
-        - [Basics of Shader Graph - Unity Tutorial](https://www.youtube.com/watch?v=Ar9eIn4z6XE)
+  - [Getting started with Unity Shader Graph nodes - LogRocket Blog](https://blog.logrocket.com/getting-started-unity-shader-graph-nodes/)
             
-        - [How to Make Your First Shader Graph | Unity Basics](https://www.youtube.com/watch?v=u9pbpypdq0Q)
+  - [Shader Graph in Unity 2021! (changes from 2020 | URP 10)](https://www.youtube.com/watch?v=azGMuP9ks8U)
             
-        - [Getting started with Unity Shader Graph nodes - LogRocket Blog](https://blog.logrocket.com/getting-started-unity-shader-graph-nodes/)
+  - [Art That Moves: Creating Animated Materials with Shader Graph | Unity Blog](https://blog.unity.com/technology/art-that-moves-creating-animated-materials-with-shader-graph)
             
-        - [Shader Graph in Unity 2021! (changes from 2020 | URP 10)](https://www.youtube.com/watch?v=azGMuP9ks8U)
+  - [How To Use Every Node in Unity Shader Graph](https://danielilett.com/2021-05-20-every-shader-graph-node/)
             
-        - [Art That Moves: Creating Animated Materials with Shader Graph | Unity Blog](https://blog.unity.com/technology/art-that-moves-creating-animated-materials-with-shader-graph)
+  - [How To Use All 200+ Nodes in Unity Shader Graph](https://www.youtube.com/watch?v=84A1FcQt9v4)
             
-        - [How To Use Every Node in Unity Shader Graph](https://danielilett.com/2021-05-20-every-shader-graph-node/)
-            
-        - [How To Use All 200+ Nodes in Unity Shader Graph](https://www.youtube.com/watch?v=84A1FcQt9v4)
-            
-        - [Unity 2021 Shaders and Effects Cookbook: Over 50 recipes to help you transform your game into a visually stunning masterpiece, 4th Edition](https://www.amazon.com/Unity-2021-Shaders-Effects-Cookbook-ebook/dp/B0964CKCX6)
+  - [Unity 2021 Shaders and Effects Cookbook: Over 50 recipes to help you transform your game into a visually stunning masterpiece, 4th Edition](https://www.amazon.com/Unity-2021-Shaders-Effects-Cookbook-ebook/dp/B0964CKCX6)
 
 
 - <details><summary><strong>VR in Unity</strong></summary>
@@ -1076,27 +1112,36 @@ This workshop focuses on developing advanced techniques for creating synthetic v
 
 <details>
   <summary><strong>11. Assignment 3 Presentations</strong></summary>
+
+- **Presentations**    
+
 </details>
 
 <details>
   <summary><strong>12-13. Assignment 4 Development</strong></summary>
 
-  - [Mindmap Miro](https://miro.com/app/board/uXjVN4LnVvM=/?share_link_id=514573416693)
-  - [Methodology - Data Collection](https://docs.google.com/spreadsheets/d/1VyWbKi_vM-vmOixw3uStqnQ8pdy5ao0QhYaK7N6tOYc/edit?usp=sharing)
-  - Banodoco Discord Invite: [https://discord.com/invite/z2rhAXBktg](https://discord.com/invite/z2rhAXBktg)
+The session focuses on defining project's methods and development processes. This involves to work on collective, group, and individual levels. Initially, a main activity is intended in building the overall framework of operation (the main structure), and then identifying tasks that are needed to be developed in groups as well as individually. The process is aimed to support students in realising in practice an effective and creative project development (learning by doing, learning with others).
 
-    ![Diagram](images/diagram.drawio.png)
+**Mapping the Research**
+Mapping out a research project is crucial as it provides a clear structure and direction, ensuring systematic progress and thorough exploration of ideas. This organization benefits project development by identifying key milestones and resources, enhances the artistic process by fostering creativity and reflection, and facilitates learning by documenting insights and lessons learned, ultimately leading to more refined and impactful outcomes.
+  - [Research Practice and Mindmaps](https://miro.com/app/board/uXjVN4LnVvM=/?share_link_id=514573416693)
+  - [Methodological Process Development & Data Collection](https://docs.google.com/spreadsheets/d/1VyWbKi_vM-vmOixw3uStqnQ8pdy5ao0QhYaK7N6tOYc/edit?usp=sharing)
+    ![System Diagram](images/diagram.drawio.png)
+
+***
+
+**Tasks for Development Teams**
 
 - **Installation Group:** 
   - Preparation for physical installation (materials, illustrations, devices)
 - **Image Groups:** 
-  - Select from [this folder](https://drive.google.com/drive/folders/1VpwYTjYBFFAlXXr6QYOu4KFqKWffMYGn?usp=sharing) the images that you find the most interesting/appropriate for the installation.
+  - Select from Assignment 1 submissions the images that you find the most interesting/appropriate for the installation.
   - Develop a methodology for the development of new generative content. 
     - Revisit/use the [miro board](https://miro.com/app/board/uXjVN4LnVvM=/?share_link_id=420225905247) and readjust as appropriate.
     - Utilize the diary notes for constructing development methods.
     - Consider models for analyzing a human being
 - **Video Groups:**
-    - Select from [this folder](https://drive.google.com/drive/folders/1fqRxb125SGlRpZQe-TCdj3MsyqAhlmnn?usp=sharing) the videos (or parts of them) that you find the most interesting/appropriate for the installation.
+    - Select from Assignment 2 submissions the videos (or parts of them) that you find the most interesting/appropriate for the installation.
     - Develop a methodology for the development of the new generative content. 
       - Revisit/use the [miro board](https://miro.com/app/board/uXjVN4LnVvM=/?share_link_id=420225905247) and readjust as appropriate.
       - Utilize the diary notes for constructing development methods.
@@ -1110,43 +1155,60 @@ This workshop focuses on developing advanced techniques for creating synthetic v
     - Sound mixing/mastering — Reaper + AU+ Ableton
     - Text to speech — Eleven Labs & Runaway AI
     - Music generation — Suno AI
-        
-  - Provide a list of appropriate voices (research for multilingual support: English, Chinese and German).
-    - Elevenlabs (29 languages available): [https://elevenlabs.io/voice-changer](https://elevenlabs.io/voice-changer)
-    - PlayHT: [https://play.ht/studio/files/9f7f3318-8075-4679-90af-60c089bfa317](https://play.ht/studio/files/9f7f3318-8075-4679-90af-60c089bfa317),
-        
-  - Provide a list of music examples appropriate for the main installation ambiance. Examples:  [https://www.youtube.com/watch?v=3zPv7oMaR_g](https://www.youtube.com/watch?v=3zPv7oMaR_g), [https://www.youtube.com/watch?v=roMz1PPslbM](https://www.youtube.com/watch?v=roMz1PPslbM)
-        
-- **Methodology & Resources**
-  - Reviewed of the diaries and selection of words and phrases
+    - Provide a list of appropriate voices (research for multilingual support: English, Chinese and German): [ElevenLabs](https://elevenlabs.io/voice-changer), [PlayHT](https://play.ht/studio/files/9f7f3318-8075-4679-90af-60c089bfa317)
+    - Provide a list of music examples appropriate for the main installation ambiance: [example A](https://www.youtube.com/watch?v=3zPv7oMaR_g), [example B](https://www.youtube.com/watch?v=roMz1PPslbM)
+
+*** 
+
+**Supporting Infrastructure - Methodology for Project Development**
+
+  - Review personal diaries and selection of words and phrases
   - Visual research on websites like CivitAI and Midjourney; explore images and prompts that align with the selected words from the diaries
-  - A database of images need to be selected and edited on Photoshop so that they all have same dimensions (1280x720). The images wercacan be outpainted in cases that the aspect ratio is different for some images.
-  - Some final images can be found on [this link](https://drive.google.com/drive/folders/1kc5ebOf8gBEDTLKyOztycv43RKCtOdub?usp=drive_link).
+  - A database of images needs to be selected and edited on Photoshop so that they all have same dimensions (1280x720). The images can be outpainted in cases that the aspect ratio is inappropriate.
+  - Selection of final images can be found on [this link](https://drive.google.com/drive/folders/1kc5ebOf8gBEDTLKyOztycv43RKCtOdub?usp=drive_link).
   
-  - **Examples:**
-    - The images are taken into ComfyUI (input folder). ![This is the worklflow used](images/W13_Example_Workflow.png).
+**Examples:**
+  - The images are taken into ComfyUI (input folder). ![This is the worklflow used](images/W13_Example_Workflow.png).
   
-    - The workflow uses 4 different image inputs for the visual references (need to ensure that the input folder of ComfyUI has ONLY the images that you want to use for your selection). In the workflow, the Primitive nodes will randomly pick one image from the input folder every time we hit a new Queue. If you need continuous variations, you can set Auto Queue inside Extra Options.
+  - The workflow uses 4 different image inputs for the visual references (need to ensure that the input folder of **ComfyUI** has ONLY the images that you want to use for your selection). In the workflow, the **Primitive** nodes will randomly pick one image from the input folder every time we hit a new **Queue**. If you need continuous variations, you can set **Auto Queue** inside **Extra Options**.
   
-    - Moreover, the workflow uses a random way to compile the final prompt, while includes calls to the LoRAs. On every new Queue, only one random word inside the curly brackets will be selected {word1 | word 2 | word3}. Here you will see that there are multiple categories organized for main prompt, visual settings, art style references, and so on.
+  - Moreover, the workflow uses a random way to compile the final prompt, while includes calls to the **LoRAs**. On every new **Queue**, only one random word inside the curly brackets will be selected {word1 | word 2 | word3}. Here you will see that there are multiple categories organized for main prompt, visual settings, art style references, and so on.
         
-        ![Screenshot 2024-04-25 at 10.26.46.png](images/Screenshot_2024-04-25_at_10.26.46.png)
+    ![Screenshot 2024-04-25 at 10.26.46.png](images/Screenshot_2024-04-25_at_10.26.46.png)
         
-    - In this example you can see a large list of LoRAs that are used within the ComfyUI prompting. To make use of them you need to download the LoRA files (CivitAI) and add them inside the ComfyUI directory models/loras.
+  - In this example you can see a large list of **LoRAs** that are used within the **ComfyUI** prompting. To make use of them you need to download the **LoRA** files (**CivitAI**) and add them inside the **ComfyUI** directory **models/loras**.
   
-    - The syntax inside the prompting node gives us the directory of the LoRA (for example models/loras/SDXL in which the SDXL is added in the prompting syntax, together with the name of the LoRA). Moreover, we can add the number that we want for each LoRA to have an effect (i.e. 1.3 is stronger than 0.8).
+  - The syntax inside the prompting node gives us the directory of the **LoRA** (for example **models/loras/SDXL** in which the SDXL is added in the prompting syntax, together with the name of the **LoRA**). Moreover, we can add the number that we want for each **LoRA** to have an effect (i.e. 1.3 is stronger than 0.8).
   
-    - The rest of the worklflow takes the image and prompts (with the loras) to the IPAdapter and the KSampler. There is a second KSampler that is used for upscaling.
+  - The rest of the worklflow takes the image and prompts (with the loras) to the IPAdapter and the **KSampler**. There is a second **KSampler** that is used for upscaling.
   
-    - The final images below have also been upscaled additionally with an external software (get in touch for further info on this, or simply leave your final images on the Drive).
-  
-    - [The full project is here](https://drive.google.com/drive/folders/1kaSByyC8GKHGFT68uLLC7SHxAJqzmvT-).
-    - [Final Assignment Folder](https://drive.google.com/drive/folders/1VSG6eqrU7FkLDlt_zfuidEjGL68YEPgL)
+  - The final images below have also been upscaled additionally with an external software (get in touch for further info on this).
 
 </details>
 
 <details>
   <summary><strong>14. Final Presentations</strong></summary>
+</details>
+
+<details>
+  <summary><strong>Participating Students</strong></summary>
+
+- Cindy Liu
+- Haoran Wang
+- Jinhe Jiang
+- Jinyuan Xu
+- Jiapei Yao
+- Michelle Hua
+- Neo Alabastro
+- Nuo Xu
+- Rebecca Xiong
+- Siwei Chen
+- ~~Victoria Chen~~
+- Wes Firestone
+- Xinyu (Torico) Chen
+- Yixiao (August) Wang
+- Zoe Kalamaros
+
 </details>
 
 </details>
