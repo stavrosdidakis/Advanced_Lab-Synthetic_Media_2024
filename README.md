@@ -1,6 +1,6 @@
 # Advanced_Lab-Synthetic_Media
 
-**Interactive Media Arts, NYU Shanghai**
+**Interactive Media Arts, NYU Shanghai**  
 **Instructor:** Dr. Stavros Didakis  
 **Email:** `stavros.didakis@nyu.edu`  
 **Course number:** INTM-SHU 306  
