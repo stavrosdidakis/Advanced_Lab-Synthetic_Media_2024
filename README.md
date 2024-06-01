@@ -1,4 +1,4 @@
-# Advanced_Lab-Synthetic_Media_2024
+# Advanced_Lab-Synthetic_Media
 
 **Interactive Media Arts, NYU Shanghai**
 **Instructor:** Dr. Stavros Didakis  
